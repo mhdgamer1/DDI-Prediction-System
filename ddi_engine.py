@@ -1,38 +1,3 @@
-"""
-ddi_engine.py
-=============
-Drug-Drug Interaction Prediction Engine.
-
-Wraps the full pipeline (interaction detection, severity classification,
-allergy cross-reactivity, pregnancy safety) into a single class that loads
-all models once and exposes four public methods.
-
-USAGE
------
-    from ddi_engine import DDIEngine
-
-    engine = DDIEngine(data_dir="./")          # loads all .pkl once
-
-    engine.predict_interaction("Warfarin", "Aspirin")
-    engine.check_cross_reactivity("Penicillin G")
-    engine.check_pregnancy("Warfarin", "Aspirin")
-    engine.resolve_rxcui("Panadol")
-
-REQUIRED FILES (in data_dir)
-----------------------------
-    ddi_final_model_v2.pkl
-    ddi_model_metadata_v2.pkl
-    ddi_support_data_v2.pkl
-    ddi_severity_major.pkl
-    ddi_severity_minor.pkl
-    ddi_severity_config.pkl
-    ddi_allergy_config.pkl
-    ddi_pregnancy_data.pkl
-
-NOTE
-----
-This is a research/educational tool, NOT a clinical decision system.
-"""
 
 import re
 import json
@@ -82,17 +47,17 @@ class DDIEngine:
     PREG_RISK_RANK = {'X': 5, 'D': 4, 'D*': 3, 'C': 2, 'B': 1, 'A': 0,
                       'N/A': 1, 'Unknown': 1}
     PREG_ADVICE = {
-        'X':  '⛔ AVOID — one or both drugs are contraindicated in pregnancy',
-        'D':  '🔴 HIGH RISK — use only if no safe alternative exists',
-        'D*': '🟠 AVOID IN LATE PREGNANCY — especially after 20 weeks',
-        'C':  '🟡 USE WITH CAUTION — consult physician before use',
-        'B':  '🟢 RELATIVELY SAFE — but always confirm with physician',
-        'A':  '✅ SAFE — generally considered safe in pregnancy',
+        'X':  ' AVOID — one or both drugs are contraindicated in pregnancy',
+        'D':  ' HIGH RISK — use only if no safe alternative exists',
+        'D*': ' AVOID IN LATE PREGNANCY — especially after 20 weeks',
+        'C':  ' USE WITH CAUTION — consult physician before use',
+        'B':  ' RELATIVELY SAFE — but always confirm with physician',
+        'A':  ' SAFE — generally considered safe in pregnancy',
     }
 
-    # ------------------------------------------------------------------ #
+
     #  INITIALISATION — loads everything once                            #
-    # ------------------------------------------------------------------ #
+
     def __init__(self, data_dir="./"):
         d = data_dir.rstrip("/")
 
@@ -150,9 +115,9 @@ class DDIEngine:
         )
         self._rxcui_to_name = self.ingredients.set_index("RXCUI")["ingredient_name"].to_dict()
 
-    # ------------------------------------------------------------------ #
+
     #  NAME RESOLUTION                                                    #
-    # ------------------------------------------------------------------ #
+
     def resolve_rxcui(self, name):
         name_lower = name.lower().strip()
         if name_lower in self.PRIORITY_OVERRIDES:
@@ -175,9 +140,9 @@ class DDIEngine:
             return self.REGIONAL_SYNONYMS[name_lower], "regional_brand"
         return None, None
 
-    # ------------------------------------------------------------------ #
+
     #  ATC HELPERS + ALTERNATIVES                                        #
-    # ------------------------------------------------------------------ #
+
     def get_primary_atc_class(self, rxcui):
         classes = self.atc_lookup[self.atc_lookup["RXCUI"] == rxcui]["atc_class"].unique()
         if len(classes) == 0:
@@ -213,9 +178,7 @@ class DDIEngine:
                          f"and have no recorded interaction with {name_a} in DDInter. "
                          f"Always verify with a pharmacist.")}
 
-    # ------------------------------------------------------------------ #
-    #  SEVERITY                                                          #
-    # ------------------------------------------------------------------ #
+
     def _get_drug_risk_score(self, rxcui):
         rxcui = str(rxcui)
         atc_letter = self.rxcui_to_atc.get(rxcui, "")
@@ -273,9 +236,7 @@ class DDIEngine:
         return severity, sev_conf, {"major_probability": round(float(major_p), 3),
                                     "minor_probability": round(float(minor_p), 3)}
 
-    # ------------------------------------------------------------------ #
-    #  INTERACTION (public)                                             #
-    # ------------------------------------------------------------------ #
+
     def predict_interaction(self, name_a, name_b,
                             include_alternatives=True, max_alternatives=5):
         rxcui_a, src_a = self.resolve_rxcui(name_a)
@@ -373,9 +334,7 @@ class DDIEngine:
             result["warning"] = warning
         return result
 
-    # ------------------------------------------------------------------ #
-    #  ALLERGY (public)                                                 #
-    # ------------------------------------------------------------------ #
+
     def _get_base_name(self, drug_name):
         name = drug_name.lower().strip()
         name = name.split(",")[0].strip()
@@ -495,9 +454,7 @@ class DDIEngine:
                      "with the drug you are allergic to. Cross-reactivity risk varies. "
                      "Always consult a doctor or pharmacist before use.")}
 
-    # ------------------------------------------------------------------ #
-    #  PREGNANCY (public)                                               #
-    # ------------------------------------------------------------------ #
+
     def _fetch_pregnancy_openfda(self, drug_name):
         import requests
         try:
@@ -550,7 +507,7 @@ class DDIEngine:
             return {"drug": drug_name, "ingredient": ingredient,
                     "category": cat, "warning": warn, "source": src,
                     "pllr_note": pllr_note}
-        # not in DB — live lookup
+
         raw = self._fetch_pregnancy_openfda(ingredient) if use_live_api else {}
         all_text = " ".join(raw.get("data", {}).values()) if "data" in raw else ""
         cat, warn, src = self._extract_pregnancy_category(all_text, ingredient)
@@ -585,9 +542,7 @@ class DDIEngine:
             "note": "Always consult a physician before taking any medication during pregnancy."}
 
 
-# ---------------------------------------------------------------------- #
-#  quick self-test when run directly                                     #
-# ---------------------------------------------------------------------- #
+
 if __name__ == "__main__":
     engine = DDIEngine(data_dir="./")
     print("Engine loaded.\n")
