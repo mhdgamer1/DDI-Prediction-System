@@ -1,0 +1,1940 @@
+id,name,name_lower
+DDInter1263,Naltrexone,naltrexone
+DDInter1,Abacavir,abacavir
+DDInter58,Aluminum hydroxide,aluminum hydroxide
+DDInter112,Aprepitant,aprepitant
+DDInter138,Attapulgite,attapulgite
+DDInter270,Calcium acetate,calcium acetate
+DDInter271,Calcium carbonate,calcium carbonate
+DDInter582,Dolutegravir,dolutegravir
+DDInter975,Iron,iron
+DDInter380,Cimetidine,cimetidine
+DDInter393,Clarithromycin,clarithromycin
+DDInter416,Clotrimazole,clotrimazole
+DDInter513,Dexamethasone,dexamethasone
+DDInter1005,Kaolin,kaolin
+DDInter1019,Lamivudine,lamivudine
+DDInter1119,Magnesium oxide,magnesium oxide
+DDInter1120,Magnesium sulfate,magnesium sulfate
+DDInter1164,Metformin,metformin
+DDInter1209,Miconazole,miconazole
+DDInter1717,Sucralfate,sucralfate
+DDInter1881,Troglitazone,troglitazone
+DDInter1961,Zidovudine,zidovudine
+DDInter195,Betamethasone,betamethasone
+DDInter269,Calcitriol (topical),calcitriol (topical)
+DDInter52,Alosetron,alosetron
+DDInter246,Budesonide,budesonide
+DDInter252,Bupropion,bupropion
+DDInter385,Cisapride,cisapride
+DDInter519,Dexlansoprazole,dexlansoprazole
+DDInter581,Dolasetron,dolasetron
+DDInter601,Dronabinol,dronabinol
+DDInter629,Eliglustat,eliglustat
+DDInter676,Esomeprazole,esomeprazole
+DDInter831,Glyburide,glyburide
+DDInter840,Granisetron,granisetron
+DDInter885,Hydrocortisone,hydrocortisone
+DDInter1022,Lansoprazole,lansoprazole
+DDInter1070,Linagliptin,linagliptin
+DDInter1258,Naldemedine,naldemedine
+DDInter1261,Naloxegol,naloxegol
+DDInter1269,Nateglinide,nateglinide
+DDInter1300,Nitisinone,nitisinone
+DDInter1340,Omeprazole,omeprazole
+DDInter1342,Ondansetron,ondansetron
+DDInter1388,Pantoprazole,pantoprazole
+DDInter1472,Pioglitazone,pioglitazone
+DDInter1513,Prednisolone,prednisolone
+DDInter1515,Prednisone,prednisone
+DDInter1559,Rabeprazole,rabeprazole
+DDInter1581,Repaglinide,repaglinide
+DDInter1615,Rolapitant,rolapitant
+DDInter1646,Saxagliptin,saxagliptin
+DDInter1665,Sibutramine,sibutramine
+DDInter1675,Simvastatin,simvastatin
+DDInter1811,Tinidazole,tinidazole
+DDInter1855,Triamcinolone,triamcinolone
+DDInter5,Abatacept,abatacept
+DDInter6,Abciximab,abciximab
+DDInter1201,Metreleptin,metreleptin
+DDInter8,Abiraterone,abiraterone
+DDInter518,Dexfenfluramine,dexfenfluramine
+DDInter712,Famotidine,famotidine
+DDInter717,Fenfluramine,fenfluramine
+DDInter1018,Lactulose,lactulose
+DDInter1055,Levofloxacin,levofloxacin
+DDInter1088,Loperamide,loperamide
+DDInter1197,Metoclopramide,metoclopramide
+DDInter1202,Metronidazole,metronidazole
+DDInter1382,Palonosetron,palonosetron
+DDInter1389,Papaverine,papaverine
+DDInter1443,Phenolphthalein,phenolphthalein
+DDInter1621,Rosiglitazone,rosiglitazone
+DDInter225,Botulinum toxin type A,botulinum toxin type a
+DDInter124,Ascorbic acid,ascorbic acid
+DDInter1377,Paclitaxel,paclitaxel
+DDInter1622,Rosuvastatin,rosuvastatin
+DDInter991,Isotretinoin,isotretinoin
+DDInter598,Doxycycline,doxycycline
+DDInter1783,Tetracycline,tetracycline
+DDInter1941,Vitamin A,vitamin a
+DDInter722,Fentanyl,fentanyl
+DDInter136,Atropine,atropine
+DDInter397,Clidinium,clidinium
+DDInter543,Dicyclomine,dicyclomine
+DDInter896,Hyoscyamine,hyoscyamine
+DDInter1126,Mazindol,mazindol
+DDInter1244,Morphine,morphine
+DDInter1245,Morphine (liposomal),morphine (liposomal)
+DDInter1253,Nabilone,nabilone
+DDInter1447,Phentermine,phentermine
+DDInter1535,Propantheline,propantheline
+DDInter1647,Scopolamine,scopolamine
+DDInter1886,Trospium,trospium
+DDInter20,Acetylsalicylic acid,acetylsalicylic acid
+DDInter833,Glycerol phenylbutyrate,glycerol phenylbutyrate
+DDInter1112,Magaldrate,magaldrate
+DDInter1113,Magnesium carbonate,magnesium carbonate
+DDInter1118,Magnesium hydroxide,magnesium hydroxide
+DDInter1309,Nizatidine,nizatidine
+DDInter1568,Ranitidine,ranitidine
+DDInter1569,Ranitidine (bismuth citrate),ranitidine (bismuth citrate)
+DDInter11,Acarbose,acarbose
+DDInter37,Alclometasone (topical),alclometasone (topical)
+DDInter1076,Lipoic acid,lipoic acid
+DDInter127,Asparaginase Escherichia coli,asparaginase escherichia coli
+DDInter222,Bortezomib,bortezomib
+DDInter542,Dicoumarol,dicoumarol
+DDInter548,Diethylstilbestrol,diethylstilbestrol
+DDInter550,Diflorasone (topical),diflorasone (topical)
+DDInter839,Goserelin,goserelin
+DDInter917,Indinavir,indinavir
+DDInter947,Interferon beta-1a,interferon beta-1a
+DDInter948,Interferon beta-1b,interferon beta-1b
+DDInter1042,Leuprolide,leuprolide
+DDInter1074,Liothyronine,liothyronine
+DDInter1247,Moxifloxacin,moxifloxacin
+DDInter1276,Nelfinavir,nelfinavir
+DDInter1323,Octreotide,octreotide
+DDInter1384,Pancrelipase,pancrelipase
+DDInter1404,Pegaspargase,pegaspargase
+DDInter1412,Pegvisomant,pegvisomant
+DDInter1460,Phenytoin,phenytoin
+DDInter1661,Sermorelin,sermorelin
+DDInter1699,Somatotropin,somatotropin
+DDInter1800,Thyrotropin alfa,thyrotropin alfa
+DDInter1836,Torasemide,torasemide
+DDInter1967,Ziprasidone,ziprasidone
+DDInter1066,Lidocaine,lidocaine
+DDInter1453,Phenylephrine,phenylephrine
+DDInter362,Chlorpheniramine,chlorpheniramine
+DDInter825,Glimepiride,glimepiride
+DDInter834,Glycopyrronium,glycopyrronium
+DDInter835,Glycopyrronium (topical),glycopyrronium (topical)
+DDInter934,Insulin human,insulin human
+DDInter932,Insulin glargine,insulin glargine
+DDInter935,"Insulin human (inhalation, rapid acting)","insulin human (inhalation, rapid acting)"
+DDInter936,Insulin human (isophane),insulin human (isophane)
+DDInter940,Insulin lispro,insulin lispro
+DDInter941,Insulin lispro (protamine),insulin lispro (protamine)
+DDInter937,Insulin human (regular),insulin human (regular)
+DDInter939,Insulin human (zinc),insulin human (zinc)
+DDInter938,Insulin human (zinc extended),insulin human (zinc extended)
+DDInter1497,Potassium chloride,potassium chloride
+DDInter527,Dextromethorphan,dextromethorphan
+DDInter16,Acetohexamide,acetohexamide
+DDInter12,Acebutolol,acebutolol
+DDInter364,Chlorpropamide,chlorpropamide
+DDInter652,Epinephrine,epinephrine
+DDInter826,Glipizide,glipizide
+DDInter1826,Tolazamide,tolazamide
+DDInter1828,Tolbutamide,tolbutamide
+DDInter887,Hydrocortisone (topical),hydrocortisone (topical)
+DDInter1217,Miglitol,miglitol
+DDInter14,Acetaminophen,acetaminophen
+DDInter263,Caffeine,caffeine
+DDInter556,Dihydrocodeine,dihydrocodeine
+DDInter1262,Naloxone,naloxone
+DDInter429,Codeine,codeine
+DDInter1632,Salbutamol,salbutamol
+DDInter84,Amphetamine,amphetamine
+DDInter116,Arformoterol,arformoterol
+DDInter132,Atomoxetine,atomoxetine
+DDInter187,Benzphetamine,benzphetamine
+DDInter243,Bromocriptine,bromocriptine
+DDInter521,Dexmethylphenidate,dexmethylphenidate
+DDInter526,Dextroamphetamine,dextroamphetamine
+DDInter547,Diethylpropion,diethylpropion
+DDInter557,Dihydroergotamine,dihydroergotamine
+DDInter591,Doxapram,doxapram
+DDInter606,Droxidopa,droxidopa
+DDInter664,Ergometrine,ergometrine
+DDInter665,Ergotamine,ergotamine
+DDInter776,Formoterol,formoterol
+DDInter846,Guanethidine,guanethidine
+DDInter915,Indacaterol,indacaterol
+DDInter951,Iobenguane (I-123),iobenguane (i-123)
+DDInter981,Isocarboxazid,isocarboxazid
+DDInter982,Isoetharine,isoetharine
+DDInter987,Isoprenaline,isoprenaline
+DDInter985,Isometheptene,isometheptene
+DDInter1064,Levothyroxine,levothyroxine
+DDInter1073,Linezolid,linezolid
+DDInter1078,Lisdexamfetamine,lisdexamfetamine
+DDInter1346,Orciprenaline,orciprenaline
+DDInter1161,Metamfetamine,metamfetamine
+DDInter1187,Methylergometrine,methylergometrine
+DDInter1189,Methylphenidate,methylphenidate
+DDInter1194,Methysergide,methysergide
+DDInter1213,Midodrine,midodrine
+DDInter1220,Milnacipran,milnacipran
+DDInter536,Dichloralphenazone,dichloralphenazone
+DDInter1375,Oxytocin,oxytocin
+DDInter1439,Phendimetrazine,phendimetrazine
+DDInter1440,Phenelzine,phenelzine
+DDInter1458,Phenylpropanolamine,phenylpropanolamine
+DDInter1476,Pirbuterol,pirbuterol
+DDInter1526,Procarbazine,procarbazine
+DDInter1606,Ritodrine,ritodrine
+DDInter1631,Safinamide,safinamide
+DDInter1635,Salmeterol,salmeterol
+DDInter1653,Selegiline,selegiline
+DDInter1769,Terbutaline,terbutaline
+DDInter1845,Tranylcypromine,tranylcypromine
+DDInter1927,Venlafaxine,venlafaxine
+DDInter1841,Tramadol,tramadol
+DDInter15,Acetazolamide,acetazolamide
+DDInter85,Amphotericin B,amphotericin b
+DDInter86,Amphotericin B (cholesteryl sulfate),amphotericin b (cholesteryl sulfate)
+DDInter87,Amphotericin B (lipid complex),amphotericin b (lipid complex)
+DDInter88,Amphotericin B (liposomal),amphotericin b (liposomal)
+DDInter168,Beclomethasone dipropionate,beclomethasone dipropionate
+DDInter137,Atropine (ophthalmic),atropine (ophthalmic)
+DDInter18,Acetylcholine,acetylcholine
+DDInter1648,Scopolamine (ophthalmic),scopolamine (ophthalmic)
+DDInter19,Acetylcysteine,acetylcysteine
+DDInter4,Abarelix,abarelix
+DDInter31,Adenosine,adenosine
+DDInter42,Alendronic acid,alendronic acid
+DDInter44,Alfuzosin,alfuzosin
+DDInter78,Amitriptyline,amitriptyline
+DDInter82,Amoxapine,amoxapine
+DDInter93,Anagrelide,anagrelide
+DDInter109,Apomorphine,apomorphine
+DDInter128,Astemizole,astemizole
+DDInter157,Azithromycin,azithromycin
+DDInter251,Buprenorphine,buprenorphine
+DDInter359,Chloroquine,chloroquine
+DDInter363,Chlorpromazine,chlorpromazine
+DDInter384,Ciprofloxacin,ciprofloxacin
+DDInter388,Citalopram,citalopram
+DDInter406,Clofazimine,clofazimine
+DDInter419,Clozapine,clozapine
+DDInter451,Cyanocobalamin,cyanocobalamin
+DDInter485,Daunorubicin,daunorubicin
+DDInter486,Daunorubicin (liposomal),daunorubicin (liposomal)
+DDInter496,Delavirdine,delavirdine
+DDInter537,Diclofenac,diclofenac
+DDInter575,Disopyramide,disopyramide
+DDInter580,Dofetilide,dofetilide
+DDInter583,Donepezil,donepezil
+DDInter603,Droperidol,droperidol
+DDInter608,Duloxetine,duloxetine
+DDInter624,Efavirenz,efavirenz
+DDInter644,Enoxacin,enoxacin
+DDInter647,Entecavir,entecavir
+DDInter655,Epirubicin,epirubicin
+DDInter667,Erlotinib,erlotinib
+DDInter670,Erythromycin,erythromycin
+DDInter699,Etodolac,etodolac
+DDInter721,Fenoprofen,fenoprofen
+DDInter743,Fluconazole,fluconazole
+DDInter758,Fluoxetine,fluoxetine
+DDInter760,Fluphenazine,fluphenazine
+DDInter763,Flurbiprofen,flurbiprofen
+DDInter765,Flutamide,flutamide
+DDInter779,Foscarnet,foscarnet
+DDInter802,Galantamine,galantamine
+DDInter810,Gefitinib,gefitinib
+DDInter842,Grepafloxacin,grepafloxacin
+DDInter853,Haloperidol,haloperidol
+DDInter895,Hydroxyzine,hydroxyzine
+DDInter901,Ibutilide,ibutilide
+DDInter912,Imipramine,imipramine
+DDInter921,Indomethacin,indomethacin
+DDInter1010,Ketorolac,ketorolac
+DDInter1139,Mefenamic acid,mefenamic acid
+DDInter1140,Mefloquine,mefloquine
+DDInter1166,Methadone,methadone
+DDInter1215,Mifepristone,mifepristone
+DDInter1230,Mirtazapine,mirtazapine
+DDInter1266,Naproxen,naproxen
+DDInter1290,Nicotine,nicotine
+DDInter1294,Nilutamide,nilutamide
+DDInter1316,Nortriptyline,nortriptyline
+DDInter1326,Olanzapine,olanzapine
+DDInter1355,Oxaliplatin,oxaliplatin
+DDInter1414,Pemetrexed,pemetrexed
+DDInter1420,Pentamidine,pentamidine
+DDInter1432,Perphenazine,perphenazine
+DDInter1478,Piroxicam,piroxicam
+DDInter1527,Prochlorperazine,prochlorperazine
+DDInter1532,Promazine,promazine
+DDInter1538,Propofol,propofol
+DDInter528,Dextropropoxyphene,dextropropoxyphene
+DDInter1543,Protriptyline,protriptyline
+DDInter1556,Quinidine,quinidine
+DDInter1557,Quinine,quinine
+DDInter1570,Ranolazine,ranolazine
+DDInter1605,Risperidone,risperidone
+DDInter1702,Sorafenib,sorafenib
+DDInter1704,Sotalol,sotalol
+DDInter1729,Sulindac,sulindac
+DDInter1734,Tacrine,tacrine
+DDInter1735,Tacrolimus,tacrolimus
+DDInter1744,Tamoxifen,tamoxifen
+DDInter1770,Terfenadine,terfenadine
+DDInter1791,Theophylline,theophylline
+DDInter1796,Thioridazine,thioridazine
+DDInter1821,Tizanidine,tizanidine
+DDInter1831,Tolmetin,tolmetin
+DDInter1837,Toremifene,toremifene
+DDInter1851,Trazodone,trazodone
+DDInter1859,Triamterene,triamterene
+DDInter1866,Trifluoperazine,trifluoperazine
+DDInter1867,Triflupromazine,triflupromazine
+DDInter1876,Trimipramine,trimipramine
+DDInter1918,Vardenafil,vardenafil
+DDInter1921,Vasopressin,vasopressin
+DDInter1946,Voriconazole,voriconazole
+DDInter386,Cisatracurium,cisatracurium
+DDInter458,Cyclosporine,cyclosporine
+DDInter1212,Midazolam,midazolam
+DDInter1254,Nabumetone,nabumetone
+DDInter1493,Porfimer sodium,porfimer sodium
+DDInter1505,Pramipexole,pramipexole
+DDInter1612,Rocuronium,rocuronium
+DDInter1716,Succinylcholine,succinylcholine
+DDInter1951,Warfarin,warfarin
+DDInter66,Amikacin,amikacin
+DDInter67,Amikacin (liposome),amikacin (liposome)
+DDInter98,Anisindione,anisindione
+DDInter129,Atazanavir,atazanavir
+DDInter179,Bendroflumethiazide,bendroflumethiazide
+DDInter188,Benzthiazide,benzthiazide
+DDInter248,Bumetanide,bumetanide
+DDInter288,Capreomycin,capreomycin
+DDInter298,Carboplatin,carboplatin
+DDInter316,Cefditoren,cefditoren
+DDInter335,Cefuroxime,cefuroxime
+DDInter344,Cetuximab,cetuximab
+DDInter360,Chlorothiazide,chlorothiazide
+DDInter365,Chlorthalidone,chlorthalidone
+DDInter387,Cisplatin,cisplatin
+DDInter413,Clopidogrel,clopidogrel
+DDInter438,Conivaptan,conivaptan
+DDInter554,Digoxin,digoxin
+DDInter686,Etacrynic acid,etacrynic acid
+DDInter770,Fluvoxamine,fluvoxamine
+DDInter790,Furosemide,furosemide
+DDInter815,Gentamicin,gentamicin
+DDInter883,Hydrochlorothiazide,hydrochlorothiazide
+DDInter889,Hydroflumethiazide,hydroflumethiazide
+DDInter916,Indapamide,indapamide
+DDInter1008,Ketoconazole,ketoconazole
+DDInter1174,Methotrexate,methotrexate
+DDInter1199,Metolazone,metolazone
+DDInter1236,Modafinil,modafinil
+DDInter1251,Mycophenolate mofetil,mycophenolate mofetil
+DDInter1277,Neomycin,neomycin
+DDInter1283,Netilmicin,netilmicin
+DDInter1285,Nevirapine,nevirapine
+DDInter1590,Rifampicin,rifampicin
+DDInter1633,Salicylic acid (sodium),salicylic acid (sodium)
+DDInter1713,Streptomycin,streptomycin
+DDInter1758,Telithromycin,telithromycin
+DDInter1822,Tobramycin,tobramycin
+DDInter1861,Trichlormethiazide,trichlormethiazide
+DDInter21,Acitretin,acitretin
+DDInter22,Aclidinium,aclidinium
+DDInter1149,Mepenzolate,mepenzolate
+DDInter1544,Prucalopride,prucalopride
+DDInter653,Epinephrine (ophthalmic),epinephrine (ophthalmic)
+DDInter654,Epinephrine (topical),epinephrine (topical)
+DDInter1123,Mannitol,mannitol
+DDInter1545,Pseudoephedrine,pseudoephedrine
+DDInter632,Eluxadoline,eluxadoline
+DDInter23,Acrivastine,acrivastine
+DDInter1498,Potassium citrate,potassium citrate
+DDInter256,Butabarbital,butabarbital
+DDInter257,Butalbital,butalbital
+DDInter435,Collagenase clostridium histolyticum,collagenase clostridium histolyticum
+DDInter1158,Mesalazine,mesalazine
+DDInter1011,Ketorolac (ophthalmic),ketorolac (ophthalmic)
+DDInter25,Acyclovir,acyclovir
+DDInter1857,Triamcinolone (ophthalmic),triamcinolone (ophthalmic)
+DDInter1291,Nifedipine,nifedipine
+DDInter275,Calcium glucoheptonate,calcium glucoheptonate
+DDInter27,Adalimumab,adalimumab
+DDInter130,Atenolol,atenolol
+DDInter197,Betaxolol,betaxolol
+DDInter198,Betaxolol (ophthalmic),betaxolol (ophthalmic)
+DDInter216,Bisoprolol,bisoprolol
+DDInter303,Carteolol,carteolol
+DDInter304,Carteolol (ophthalmic),carteolol (ophthalmic)
+DDInter507,Desmopressin,desmopressin
+DDInter641,Enflurane,enflurane
+DDInter646,Entacapone,entacapone
+DDInter675,Esmolol,esmolol
+DDInter845,Guanadrel,guanadrel
+DDInter1013,Labetalol,labetalol
+DDInter1099,Loxapine,loxapine
+DDInter1130,Mecamylamine,mecamylamine
+DDInter1200,Metoprolol,metoprolol
+DDInter1539,Propranolol,propranolol
+DDInter1582,Reserpine,reserpine
+DDInter1793,Thiethylperazine,thiethylperazine
+DDInter1809,Timolol,timolol
+DDInter1810,Timolol (ophthalmic),timolol (ophthalmic)
+DDInter1829,Tolcapone,tolcapone
+DDInter1852,Treprostinil,treprostinil
+DDInter102,"Antihemophilic factor, human recombinant","antihemophilic factor, human recombinant"
+DDInter164,Balsalazide,balsalazide
+DDInter900,Ibuprofen,ibuprofen
+DDInter1725,Sulfasalazine,sulfasalazine
+DDInter1916,Vancomycin,vancomycin
+DDInter749,Flunisolide,flunisolide
+DDInter32,Afatinib,afatinib
+DDInter692,Ethinylestradiol,ethinylestradiol
+DDInter1061,Levonorgestrel,levonorgestrel
+DDInter1489,Polymyxin B,polymyxin b
+DDInter34,Agalsidase beta,agalsidase beta
+DDInter38,Aldesleukin,aldesleukin
+DDInter40,Alefacept,alefacept
+DDInter41,Alemtuzumab,alemtuzumab
+DDInter68,Amiloride,amiloride
+DDInter79,Amlodipine,amlodipine
+DDInter90,Amprenavir,amprenavir
+DDInter94,Anakinra,anakinra
+DDInter177,Benazepril,benazepril
+DDInter202,Bexarotene,bexarotene
+DDInter223,Bosentan,bosentan
+DDInter293,Carbamazepine,carbamazepine
+DDInter336,Celecoxib,celecoxib
+DDInter392,Cladribine,cladribine
+DDInter412,Clonidine,clonidine
+DDInter433,Colestipol,colestipol
+DDInter439,Conjugated estrogens,conjugated estrogens
+DDInter440,Conjugated estrogens (topical),conjugated estrogens (topical)
+DDInter561,Diltiazem,diltiazem
+DDInter592,Doxazosin,doxazosin
+DDInter623,Efalizumab,efalizumab
+DDInter638,Enalapril,enalapril
+DDInter656,Eplerenone,eplerenone
+DDInter682,Estrone,estrone
+DDInter687,Etanercept,etanercept
+DDInter781,Fosinopril,fosinopril
+DDInter844,Guanabenz,guanabenz
+DDInter909,Imatinib,imatinib
+DDInter923,Infliximab,infliximab
+DDInter993,Isradipine,isradipine
+DDInter1079,Lisinopril,lisinopril
+DDInter1095,Losartan,losartan
+DDInter1109,Lyme disease vaccine (recombinant OspA),lyme disease vaccine (recombinant ospa)
+DDInter1152,Mephenytoin,mephenytoin
+DDInter1167,Methazolamide,methazolamide
+DDInter1226,Minoxidil,minoxidil
+DDInter1237,Moexipril,moexipril
+DDInter1268,Natalizumab,natalizumab
+DDInter1287,Nicardipine,nicardipine
+DDInter1298,Nisoldipine,nisoldipine
+DDInter1305,Nitroprusside,nitroprusside
+DDInter1330,Olmesartan,olmesartan
+DDInter1357,Oxandrolone,oxandrolone
+DDInter1423,Pentobarbital,pentobarbital
+DDInter1511,Prazosin,prazosin
+DDInter1548,Pyridostigmine,pyridostigmine
+DDInter1565,Ramipril,ramipril
+DDInter1589,Rifabutin,rifabutin
+DDInter1607,Ritonavir,ritonavir
+DDInter1613,Rofecoxib,rofecoxib
+DDInter1650,Secobarbital,secobarbital
+DDInter1707,Spironolactone,spironolactone
+DDInter1775,Testosterone,testosterone
+DDInter1776,Testosterone (topical),testosterone (topical)
+DDInter1804,Ticlopidine,ticlopidine
+DDInter1843,Trandolapril,trandolapril
+DDInter1887,Trovafloxacin,trovafloxacin
+DDInter1910,Valdecoxib,valdecoxib
+DDInter1915,Valsartan,valsartan
+DDInter1928,Verapamil,verapamil
+DDInter1943,Vitamin E,vitamin e
+DDInter1091,Loratadine,loratadine
+DDInter35,Albendazole,albendazole
+DDInter36,Albiglutide,albiglutide
+DDInter63,Amcinonide,amcinonide
+DDInter118,Aripiprazole,aripiprazole
+DDInter125,Asenapine,asenapine
+DDInter126,Asparaginase Erwinia chrysanthemi,asparaginase erwinia chrysanthemi
+DDInter196,Betamethasone (topical),betamethasone (topical)
+DDInter228,Brentuximab vedotin,brentuximab vedotin
+DDInter300,Cariprazine,cariprazine
+DDInter383,Cinoxacin,cinoxacin
+DDInter404,Clocortolone (topical),clocortolone (topical)
+DDInter445,Corticotropin,corticotropin
+DDInter1782,Tetracosactide,tetracosactide
+DDInter472,Danazol,danazol
+DDInter482,Darunavir,darunavir
+DDInter509,Desonide (topical),desonide (topical)
+DDInter510,Desoximetasone (topical),desoximetasone (topical)
+DDInter515,Dexamethasone (ophthalmic),dexamethasone (ophthalmic)
+DDInter516,Dexamethasone (topical),dexamethasone (topical)
+DDInter535,Diazoxide,diazoxide
+DDInter540,Diclofenamide,diclofenamide
+DDInter545,Dienestrol (topical),dienestrol (topical)
+DDInter577,Dobutamine,dobutamine
+DDInter584,Dopamine,dopamine
+DDInter604,Drospirenone,drospirenone
+DDInter650,Ephedrine,ephedrine
+DDInter679,Estradiol,estradiol
+DDInter680,Estradiol (topical),estradiol (topical)
+DDInter681,Estramustine,estramustine
+DDInter683,Estrone sulfate,estrone sulfate
+DDInter684,Estrone sulfate (topical),estrone sulfate (topical)
+DDInter690,Ethanol,ethanol
+DDInter701,Etonogestrel,etonogestrel
+DDInter704,Everolimus,everolimus
+DDInter747,Fludrocortisone,fludrocortisone
+DDInter753,Fluocinonide (topical),fluocinonide (topical)
+DDInter761,Flurandrenolide (topical),flurandrenolide (topical)
+DDInter777,Fosamprenavir,fosamprenavir
+DDInter783,Fosphenytoin,fosphenytoin
+DDInter809,Gatifloxacin,gatifloxacin
+DDInter813,Gemifloxacin,gemifloxacin
+DDInter820,Ginseng,ginseng
+DDInter851,Halcinonide (topical),halcinonide (topical)
+DDInter1898,Ulobetasol (topical),ulobetasol (topical)
+DDInter864,Histrelin,histrelin
+DDInter907,Iloperidone,iloperidone
+DDInter929,Insulin aspart (aspart),insulin aspart (aspart)
+DDInter928,Insulin aspart (aspart protamine),insulin aspart (aspart protamine)
+DDInter931,Insulin detemir,insulin detemir
+DDInter933,Insulin glulisine,insulin glulisine
+DDInter986,Isoniazid,isoniazid
+DDInter1021,Lanreotide,lanreotide
+DDInter1075,Liotrix,liotrix
+DDInter1084,Lomefloxacin,lomefloxacin
+DDInter1093,Lorcaserin,lorcaserin
+DDInter1102,Lumateperone,lumateperone
+DDInter1104,Lurasidone,lurasidone
+DDInter1137,Medroxyprogesterone acetate,medroxyprogesterone acetate
+DDInter1141,Megestrol acetate,megestrol acetate
+DDInter1151,Mephentermine,mephentermine
+DDInter1159,Mesoridazine,mesoridazine
+DDInter1162,Metaraminol,metaraminol
+DDInter1168,Methdilazine,methdilazine
+DDInter1175,Methotrimeprazine,methotrimeprazine
+DDInter1176,Methoxamine,methoxamine
+DDInter1191,Methylprednisolone,methylprednisolone
+DDInter1192,Methylprednisolone (topical),methylprednisolone (topical)
+DDInter1214,Midostaurin,midostaurin
+DDInter1259,Nalidixic acid,nalidixic acid
+DDInter1286,Niacin,niacin
+DDInter1289,Nicotinamide,nicotinamide
+DDInter1311,Norepinephrine,norepinephrine
+DDInter1312,Norethisterone,norethisterone
+DDInter1313,Norfloxacin,norfloxacin
+DDInter1325,Ofloxacin,ofloxacin
+DDInter1335,Omacetaxine mepesuccinate,omacetaxine mepesuccinate
+DDInter1348,Orlistat,orlistat
+DDInter1381,Paliperidone,paliperidone
+DDInter1398,Pasireotide,pasireotide
+DDInter1490,Polythiazide,polythiazide
+DDInter1512,Prednicarbate (topical),prednicarbate (topical)
+DDInter1529,Progesterone,progesterone
+DDInter1530,Progesterone (topical),progesterone (topical)
+DDInter1533,Promethazine,promethazine
+DDInter1537,Propiomazine,propiomazine
+DDInter1553,Quetiapine,quetiapine
+DDInter1555,Quinestrol,quinestrol
+DDInter1640,Saquinavir,saquinavir
+DDInter1678,Sirolimus,sirolimus
+DDInter1705,Sparfloxacin,sparfloxacin
+DDInter1763,Temsirolimus,temsirolimus
+DDInter1766,Teprotumumab,teprotumumab
+DDInter1773,Tesamorelin,tesamorelin
+DDInter1817,Tipranavir,tipranavir
+DDInter1858,Triamcinolone (topical),triamcinolone (topical)
+DDInter45,Alimemazine,alimemazine
+DDInter1880,Triptorelin,triptorelin
+DDInter1947,Vorinostat,vorinostat
+DDInter367,Cholecalciferol,cholecalciferol
+DDInter265,Calcifediol,calcifediol
+DDInter268,Calcitriol,calcitriol
+DDInter662,Ergocalciferol,ergocalciferol
+DDInter43,Alfentanil,alfentanil
+DDInter775,Fondaparinux,fondaparinux
+DDInter247,Budesonide (nasal),budesonide (nasal)
+DDInter778,Fosaprepitant,fosaprepitant
+DDInter780,Fosfomycin,fosfomycin
+DDInter59,Alvimopan,alvimopan
+DDInter636,Empagliflozin,empagliflozin
+DDInter212,Bisacodyl,bisacodyl
+DDInter812,Gemfibrozil,gemfibrozil
+DDInter1459,Phenyltoloxamine,phenyltoloxamine
+DDInter1344,Opium,opium
+DDInter1299,Nitazoxanide,nitazoxanide
+DDInter280,Canagliflozin,canagliflozin
+DDInter474,Dapagliflozin,dapagliflozin
+DDInter46,Aliskiren,aliskiren
+DDInter622,Edrophonium,edrophonium
+DDInter1054,Levodopa,levodopa
+DDInter1255,Nadolol,nadolol
+DDInter1279,Neostigmine,neostigmine
+DDInter1417,Penbutolol,penbutolol
+DDInter1971,Zonisamide,zonisamide
+DDInter343,Cetirizine,cetirizine
+DDInter48,Allopurinol,allopurinol
+DDInter49,Almotriptan,almotriptan
+DDInter51,Alogliptin,alogliptin
+DDInter292,Captopril,captopril
+DDInter1431,Perindopril,perindopril
+DDInter533,Diatrizoate,diatrizoate
+DDInter1834,Topiramate,topiramate
+DDInter71,Aminoglutethimide,aminoglutethimide
+DDInter405,Clofarabine,clofarabine
+DDInter1033,Leflunomide,leflunomide
+DDInter1360,Oxcarbazepine,oxcarbazepine
+DDInter1516,Pregabalin,pregabalin
+DDInter1521,Primidone,primidone
+DDInter1814,Tioguanine,tioguanine
+DDInter1874,Trimethoprim,trimethoprim
+DDInter1177,Methoxsalen,methoxsalen
+DDInter1206,Mexiletine,mexiletine
+DDInter1792,Thiabendazole,thiabendazole
+DDInter1962,Zileuton,zileuton
+DDInter607,Dulaglutide,dulaglutide
+DDInter669,Ertugliflozin,ertugliflozin
+DDInter706,Exenatide,exenatide
+DDInter734,Fidaxomicin,fidaxomicin
+DDInter930,Insulin degludec,insulin degludec
+DDInter1077,Liraglutide,liraglutide
+DDInter1082,Lixisenatide,lixisenatide
+DDInter1506,Pramlintide,pramlintide
+DDInter1593,Rifaximin,rifaximin
+DDInter53,Alpelisib,alpelisib
+DDInter1679,Sitagliptin,sitagliptin
+DDInter1411,Pegvaliase,pegvaliase
+DDInter54,Alprazolam,alprazolam
+DDInter55,Alprostadil,alprostadil
+DDInter1639,Sapropterin,sapropterin
+DDInter1730,Sumatriptan,sumatriptan
+DDInter56,Alteplase,alteplase
+DDInter57,Altretamine,altretamine
+DDInter1549,Pyridoxine,pyridoxine
+DDInter258,Butorphanol,butorphanol
+DDInter531,Dezocine,dezocine
+DDInter602,Dronedarone,dronedarone
+DDInter884,Hydrocodone,hydrocodone
+DDInter890,Hydromorphone,hydromorphone
+DDInter1043,Levacetylmethadol,levacetylmethadol
+DDInter1062,Levorphanol,levorphanol
+DDInter1150,Meperidine,meperidine
+DDInter1257,Nalbuphine,nalbuphine
+DDInter1366,Oxycodone,oxycodone
+DDInter1372,Oxymorphone,oxymorphone
+DDInter1421,Pentazocine,pentazocine
+DDInter60,Amantadine,amantadine
+DDInter539,Diclofenac (topical),diclofenac (topical)
+DDInter1068,Lidocaine (topical),lidocaine (topical)
+DDInter350,Chlorambucil,chlorambucil
+DDInter378,Cidofovir,cidofovir
+DDInter456,Cyclophosphamide,cyclophosphamide
+DDInter873,Human immunoglobulin G (intravenous),human immunoglobulin g (intravenous)
+DDInter872,Human immunoglobulin G (intravenous and subcutaneous),human immunoglobulin g (intravenous and subcutaneous)
+DDInter1383,Pamidronic acid,pamidronic acid
+DDInter1968,Zoledronic acid,zoledronic acid
+DDInter62,Ambrisentan,ambrisentan
+DDInter1487,Polyethylene glycol (3350 with electrolytes),polyethylene glycol (3350 with electrolytes)
+DDInter599,Doxycycline (topical),doxycycline (topical)
+DDInter73,Aminolevulinic acid (topical),aminolevulinic acid (topical)
+DDInter1784,Tetracycline (topical),tetracycline (topical)
+DDInter75,Aminosalicylic acid,aminosalicylic acid
+DDInter76,Amiodarone,amiodarone
+DDInter77,Amisulpride,amisulpride
+DDInter133,Atorvastatin,atorvastatin
+DDInter81,Amobarbital,amobarbital
+DDInter558,Dihydrotachysterol,dihydrotachysterol
+DDInter83,Amoxicillin,amoxicillin
+DDInter498,Demeclocycline,demeclocycline
+DDInter1224,Minocycline,minocycline
+DDInter1252,Mycophenolic acid,mycophenolic acid
+DDInter1374,Oxytetracycline,oxytetracycline
+DDInter1522,Probenecid,probenecid
+DDInter830,Glutamic acid,glutamic acid
+DDInter89,Ampicillin,ampicillin
+DDInter181,Benzatropine,benzatropine
+DDInter294,Carbamoylcholine (ophthalmic),carbamoylcholine (ophthalmic)
+DDInter346,Cevimeline,cevimeline
+DDInter395,Clemastine,clemastine
+DDInter517,Dexbrompheniramine,dexbrompheniramine
+DDInter600,Doxylamine,doxylamine
+DDInter970,Ipratropium,ipratropium
+DDInter971,Ipratropium (nasal),ipratropium (nasal)
+DDInter1455,Phenylephrine (ophthalmic),phenylephrine (ophthalmic)
+DDInter1528,Procyclidine,procyclidine
+DDInter226,Botulinum Toxin Type B,botulinum toxin type b
+DDInter1870,Trihexyphenidyl,trihexyphenidyl
+DDInter651,Ephedrine (nasal),ephedrine (nasal)
+DDInter1231,Misoprostol,misoprostol
+DDInter149,Azatadine,azatadine
+DDInter211,Biperiden,biperiden
+DDInter235,Brimonidine (ophthalmic),brimonidine (ophthalmic)
+DDInter236,Brimonidine (topical),brimonidine (topical)
+DDInter245,Brompheniramine,brompheniramine
+DDInter297,Carbinoxamine,carbinoxamine
+DDInter459,Cyproheptadine,cyproheptadine
+DDInter480,Darifenacin,darifenacin
+DDInter1134,Meclizine,meclizine
+DDInter1333,Olopatadine (nasal),olopatadine (nasal)
+DDInter1429,Perflutren,perflutren
+DDInter1878,Tripelennamine,tripelennamine
+DDInter1879,Triprolidine,triprolidine
+DDInter1519,Prilocaine (topiclal),prilocaine (topiclal)
+DDInter718,Fenofibrate,fenofibrate
+DDInter103,Antilymphocyte immunoglobulin (horse),antilymphocyte immunoglobulin (horse)
+DDInter106,Antithymocyte immunoglobulin (rabbit),antithymocyte immunoglobulin (rabbit)
+DDInter865,Homatropine,homatropine
+DDInter307,Castor oil,castor oil
+DDInter832,Glycerin,glycerin
+DDInter107,Apalutamide,apalutamide
+DDInter1115,Magnesium citrate,magnesium citrate
+DDInter1223,Mineral oil,mineral oil
+DDInter1488,Polyethylene glycol (3350),polyethylene glycol (3350)
+DDInter108,Apixaban,apixaban
+DDInter199,Bethanechol,bethanechol
+DDInter305,Carvedilol,carvedilol
+DDInter355,Chlordiazepoxide,chlordiazepoxide
+DDInter401,Clobazam,clobazam
+DDInter411,Clonazepam,clonazepam
+DDInter414,Clorazepic acid,clorazepic acid
+DDInter426,Cocaine (nasal),cocaine (nasal)
+DDInter454,Cyclobenzaprine,cyclobenzaprine
+DDInter457,Cycloserine,cycloserine
+DDInter502,Deserpidine,deserpidine
+DDInter504,Desipramine,desipramine
+DDInter534,Diazepam,diazepam
+DDInter569,Diphenhydramine,diphenhydramine
+DDInter1913,Valproic acid,valproic acid
+DDInter593,Doxepin,doxepin
+DDInter594,Doxepin (topical),doxepin (topical)
+DDInter658,Eprosartan,eprosartan
+DDInter668,Ertapenem,ertapenem
+DDInter685,Eszopiclone,eszopiclone
+DDInter691,Ethchlorvynol,ethchlorvynol
+DDInter716,Felodipine,felodipine
+DDInter720,Fenoldopam,fenoldopam
+DDInter762,Flurazepam,flurazepam
+DDInter850,Halazepam,halazepam
+DDInter942,"Interferon alfa-2a, Recombinant","interferon alfa-2a, recombinant"
+DDInter943,Interferon alfa-2b,interferon alfa-2b
+DDInter944,Interferon alfa-n1,interferon alfa-n1
+DDInter945,Interferon alfa-n3,interferon alfa-n3
+DDInter946,Interferon alfacon-1,interferon alfacon-1
+DDInter949,Interferon gamma-1b,interferon gamma-1b
+DDInter972,Irbesartan,irbesartan
+DDInter989,Isosorbide dinitrate,isosorbide dinitrate
+DDInter990,Isosorbide mononitrate,isosorbide mononitrate
+DDInter1072,Lindane,lindane
+DDInter1092,Lorazepam,lorazepam
+DDInter1124,Maprotiline,maprotiline
+DDInter1190,Methylphenobarbital,methylphenobarbital
+DDInter1154,Meprobamate,meprobamate
+DDInter1157,Meropenem,meropenem
+DDInter1250,Muromonab,muromonab
+DDInter1274,Nefazodone,nefazodone
+DDInter1295,Nimodipine,nimodipine
+DDInter1304,Nitroglycerin,nitroglycerin
+DDInter1356,Oxamniquine,oxamniquine
+DDInter1359,Oxazepam,oxazepam
+DDInter1397,Paroxetine,paroxetine
+DDInter1407,Peginterferon alfa-2a,peginterferon alfa-2a
+DDInter1408,Peginterferon alfa-2b,peginterferon alfa-2b
+DDInter1444,Phenoxybenzamine,phenoxybenzamine
+DDInter1448,Phentolamine,phentolamine
+DDInter1462,Physostigmine,physostigmine
+DDInter1470,Pimozide,pimozide
+DDInter1471,Pindolol,pindolol
+DDInter1475,Piperazine,piperazine
+DDInter1554,Quinapril,quinapril
+DDInter1579,Remifentanil,remifentanil
+DDInter1597,Rimantadine,rimantadine
+DDInter1610,Rivastigmine,rivastigmine
+DDInter1662,Sertraline,sertraline
+DDInter1718,Sufentanil,sufentanil
+DDInter1745,Tamsulosin,tamsulosin
+DDInter1759,Telmisartan,telmisartan
+DDInter1761,Temazepam,temazepam
+DDInter1832,Tolterodine,tolterodine
+DDInter1860,Triazolam,triazolam
+DDInter1872,Trimethaphan,trimethaphan
+DDInter1957,Zaleplon,zaleplon
+DDInter1970,Zolpidem,zolpidem
+DDInter110,Apraclonidine,apraclonidine
+DDInter249,Bupivacaine,bupivacaine
+DDInter254,Buspirone,buspirone
+DDInter341,Cerivastatin,cerivastatin
+DDInter351,Chloramphenicol,chloramphenicol
+DDInter475,Dapsone,dapsone
+DDInter627,Eletriptan,eletriptan
+DDInter695,Ethosuximide,ethosuximide
+DDInter843,Griseofulvin,griseofulvin
+DDInter998,Ivermectin,ivermectin
+DDInter1098,Lovastatin,lovastatin
+DDInter1233,Mitotane,mitotane
+DDInter1256,Nafcillin,nafcillin
+DDInter1469,Pimecrolimus (topical),pimecrolimus (topical)
+DDInter1620,Ropivacaine,ropivacaine
+DDInter1666,Sildenafil,sildenafil
+DDInter1765,Teniposide,teniposide
+DDInter1936,Vinblastine,vinblastine
+DDInter1937,Vincristine,vincristine
+DDInter1938,Vincristine (liposome),vincristine (liposome)
+DDInter1939,Vinorelbine,vinorelbine
+DDInter1955,Zafirlukast,zafirlukast
+DDInter508,Desogestrel,desogestrel
+DDInter119,Armodafinil,armodafinil
+DDInter120,Arsenic trioxide,arsenic trioxide
+DDInter1103,Lumefantrine,lumefantrine
+DDInter162,Baclofen,baclofen
+DDInter1636,Salmon calcitonin,salmon calcitonin
+DDInter1619,Ropinirole,ropinirole
+DDInter1888,Tryptophan,tryptophan
+DDInter1319,Obeticholic acid,obeticholic acid
+DDInter348,Chenodeoxycholic acid,chenodeoxycholic acid
+DDInter1371,Oxymetholone,oxymetholone
+DDInter1709,Stanozolol,stanozolol
+DDInter99,Anistreplase,anistreplase
+DDInter573,Dipyridamole,dipyridamole
+DDInter544,Didanosine,didanosine
+DDInter551,Diflunisal,diflunisal
+DDInter588,Dorzolamide (ophthalmic),dorzolamide (ophthalmic)
+DDInter605,Drotrecogin alfa,drotrecogin alfa
+DDInter764,Flurbiprofen (ophthalmic),flurbiprofen (ophthalmic)
+DDInter897,Ibandronate,ibandronate
+DDInter898,Ibritumomab tiuxetan,ibritumomab tiuxetan
+DDInter903,Icosapent,icosapent
+DDInter1839,Tositumomab (I-131),tositumomab (i-131)
+DDInter1135,Meclofenamic acid,meclofenamic acid
+DDInter1424,Pentosan polysulfate,pentosan polysulfate
+DDInter1585,Reteplase,reteplase
+DDInter1604,Risedronic acid,risedronic acid
+DDInter1712,Streptokinase,streptokinase
+DDInter1764,Tenecteplase,tenecteplase
+DDInter1838,Tositumomab,tositumomab
+DDInter1905,Urokinase,urokinase
+DDInter1929,Verteporfin,verteporfin
+DDInter115,Ardeparin,ardeparin
+DDInter117,Argatroban,argatroban
+DDInter538,Diclofenac (ophthalmic),diclofenac (ophthalmic)
+DDInter659,Eptifibatide,eptifibatide
+DDInter1037,Lepirudin,lepirudin
+DDInter1143,Meloxicam,meloxicam
+DDInter1426,Pentoxifylline,pentoxifylline
+DDInter1451,Phenylbutazone,phenylbutazone
+DDInter1732,Suprofen (ophthalmic),suprofen (ophthalmic)
+DDInter1818,Tirofiban,tirofiban
+DDInter154,Azelastine (nasal),azelastine (nasal)
+DDInter1514,Prednisolone (ophthalmic),prednisolone (ophthalmic)
+DDInter1856,Triamcinolone (nasal),triamcinolone (nasal)
+DDInter514,Dexamethasone (nasal),dexamethasone (nasal)
+DDInter134,Atovaquone,atovaquone
+DDInter1531,Proguanil,proguanil
+DDInter848,Guanidine,guanidine
+DDInter139,Auranofin,auranofin
+DDInter141,Avanafil,avanafil
+DDInter147,Axitinib,axitinib
+DDInter150,Azathioprine,azathioprine
+DDInter156,Azilsartan medoxomil,azilsartan medoxomil
+DDInter1186,Methylene blue,methylene blue
+DDInter184,Benzocaine (topical),benzocaine (topical)
+DDInter161,Bacitracin,bacitracin
+DDInter1278,Neomycin (topical),neomycin (topical)
+DDInter273,Calcium citrate,calcium citrate
+DDInter274,Calcium glubionate anhydrous,calcium glubionate anhydrous
+DDInter276,Calcium gluconate,calcium gluconate
+DDInter278,Calcium lactate,calcium lactate
+DDInter279,Calcium Phosphate,calcium phosphate
+DDInter1114,Magnesium chloride,magnesium chloride
+DDInter1116,Magnesium gluconate,magnesium gluconate
+DDInter163,Baloxavir marboxil,baloxavir marboxil
+DDInter1965,Zinc gluconate,zinc gluconate
+DDInter1966,Zinc sulfate,zinc sulfate
+DDInter241,Bromfenac,bromfenac
+DDInter295,Carbenicillin,carbenicillin
+DDInter309,Cefaclor,cefaclor
+DDInter315,Cefdinir,cefdinir
+DDInter339,Cephalexin,cephalexin
+DDInter394,Clavulanic acid,clavulanic acid
+DDInter541,Dicloxacillin,dicloxacillin
+DDInter1009,Ketoprofen,ketoprofen
+DDInter1303,Nitrofurantoin,nitrofurantoin
+DDInter1358,Oxaprozin,oxaprozin
+DDInter1445,Phenoxymethylpenicillin,phenoxymethylpenicillin
+DDInter1721,Sulfadiazine,sulfadiazine
+DDInter1723,Sulfamethizole,sulfamethizole
+DDInter1727,Sulfisoxazole,sulfisoxazole
+DDInter1908,Valaciclovir,valaciclovir
+DDInter165,Baricitinib,baricitinib
+DDInter166,Basiliximab,basiliximab
+DDInter61,Ambenonium,ambenonium
+DDInter74,Aminophylline,aminophylline
+DDInter306,Caspofungin,caspofungin
+DDInter432,Colesevelam,colesevelam
+DDInter476,Dapsone (topical),dapsone (topical)
+DDInter590,Doxacurium,doxacurium
+DDInter596,Doxorubicin,doxorubicin
+DDInter597,Doxorubicin (liposomal),doxorubicin (liposomal)
+DDInter696,Ethotoin,ethotoin
+DDInter705,Exemestane,exemestane
+DDInter759,Fluoxymesterone,fluoxymesterone
+DDInter847,Guanfacine,guanfacine
+DDInter973,Irinotecan,irinotecan
+DDInter974,Irinotecan (liposomal),irinotecan (liposomal)
+DDInter995,Itraconazole,itraconazole
+DDInter1051,Levobupivacaine,levobupivacaine
+DDInter1185,Methyldopa,methyldopa
+DDInter1235,Mivacurium,mivacurium
+DDInter1242,Montelukast,montelukast
+DDInter1378,Paclitaxel (protein-bound),paclitaxel (protein-bound)
+DDInter1442,Phenobarbital,phenobarbital
+DDInter1510,Praziquantel,praziquantel
+DDInter1564,Ramelteon,ramelteon
+DDInter1592,Rifapentine,rifapentine
+DDInter1736,Tadalafil,tadalafil
+DDInter1767,Terazosin,terazosin
+DDInter1789,Thalidomide,thalidomide
+DDInter1890,Tubocurarine,tubocurarine
+DDInter1933,Vigabatrin,vigabatrin
+DDInter169,Beclomethasone dipropionate (nasal),beclomethasone dipropionate (nasal)
+DDInter172,Belatacept,belatacept
+DDInter173,Belimumab,belimumab
+DDInter1362,Oxitriptan,oxitriptan
+DDInter260,Cabergoline,cabergoline
+DDInter410,Clomipramine,clomipramine
+DDInter672,Escitalopram,escitalopram
+DDInter740,Flecainide,flecainide
+DDInter788,Frovatriptan,frovatriptan
+DDInter1239,Molindone,molindone
+DDInter1267,Naratriptan,naratriptan
+DDInter1271,Nebivolol,nebivolol
+DDInter1430,Pergolide,pergolide
+DDInter1534,Propafenone,propafenone
+DDInter1611,Rizatriptan,rizatriptan
+DDInter1708,St. John's Wort,st. john's wort
+DDInter1778,Tetrabenazine,tetrabenazine
+DDInter1798,Thiothixene,thiothixene
+DDInter1954,Yohimbine,yohimbine
+DDInter1969,Zolmitriptan,zolmitriptan
+DDInter707,Ezetimibe,ezetimibe
+DDInter1180,Methscopolamine,methscopolamine
+DDInter886,Hydrocortisone (ophthalmic),hydrocortisone (ophthalmic)
+DDInter204,Bicalutamide,bicalutamide
+DDInter205,Bictegravir,bictegravir
+DDInter637,Emtricitabine,emtricitabine
+DDInter170,Bedaquiline,bedaquiline
+DDInter192,Bepridil,bepridil
+DDInter224,Bosutinib,bosutinib
+DDInter262,Cabozantinib,cabozantinib
+DDInter379,Cilostazol,cilostazol
+DDInter448,Crizotinib,crizotinib
+DDInter484,Dasatinib,dasatinib
+DDInter493,Degarelix,degarelix
+DDInter649,Enzalutamide,enzalutamide
+DDInter666,Eribulin,eribulin
+DDInter708,Ezogabine,ezogabine
+DDInter852,Halofantrine,halofantrine
+DDInter893,Hydroxychloroquine,hydroxychloroquine
+DDInter927,Inotuzumab ozogamicin,inotuzumab ozogamicin
+DDInter1024,Lapatinib,lapatinib
+DDInter1069,Linaclotide,linaclotide
+DDInter1083,Lofexidine,lofexidine
+DDInter1293,Nilotinib,nilotinib
+DDInter1387,Panobinostat,panobinostat
+DDInter1400,Pazopanib,pazopanib
+DDInter1467,Pimavanserin,pimavanserin
+DDInter1494,Posaconazole,posaconazole
+DDInter1520,Primaquine,primaquine
+DDInter1523,Probucol,probucol
+DDInter1524,Procainamide,procainamide
+DDInter1595,Rilpivirine,rilpivirine
+DDInter1616,Romidepsin,romidepsin
+DDInter1664,Sevoflurane,sevoflurane
+DDInter1683,Sodium bicarbonate,sodium bicarbonate
+DDInter1696,Solifenacin,solifenacin
+DDInter1731,Sunitinib,sunitinib
+DDInter1756,Telavancin,telavancin
+DDInter1903,Urea,urea
+DDInter1917,Vandetanib,vandetanib
+DDInter1925,Vemurafenib,vemurafenib
+DDInter576,Disulfiram,disulfiram
+DDInter689,Ethambutol,ethambutol
+DDInter694,Ethionamide,ethionamide
+DDInter702,Etoposide,etoposide
+DDInter757,Fluorouracil,fluorouracil
+DDInter1128,Mebendazole,mebendazole
+DDInter1354,Oxacillin,oxacillin
+DDInter1474,Piperacillin,piperacillin
+DDInter1509,Pravastatin,pravastatin
+DDInter1710,Stavudine,stavudine
+DDInter1853,Tretinoin,tretinoin
+DDInter217,Bivalirudin,bivalirudin
+DDInter219,Bleomycin,bleomycin
+DDInter220,Blinatumomab,blinatumomab
+DDInter267,Calcipotriol (topical),calcipotriol (topical)
+DDInter489,Deferiprone,deferiprone
+DDInter553,Digitoxin,digitoxin
+DDInter631,Eltrombopag,eltrombopag
+DDInter698,Etidronic acid,etidronic acid
+DDInter1045,Levamlodipine,levamlodipine
+DDInter1399,Patiromer,patiromer
+DDInter1419,Penicillamine,penicillamine
+DDInter1830,Tolevamer,tolevamer
+DDInter1715,Strontium chloride Sr-89,strontium chloride sr-89
+DDInter771,Folic acid,folic acid
+DDInter1799,"Thyroid, porcine","thyroid, porcine"
+DDInter1808,Tiludronic acid,tiludronic acid
+DDInter1864,Triethylenetetramine,triethylenetetramine
+DDInter1004,Kanamycin,kanamycin
+DDInter1334,Olsalazine,olsalazine
+DDInter231,Brexpiprazole,brexpiprazole
+DDInter233,Brigatinib,brigatinib
+DDInter239,Brivaracetam,brivaracetam
+DDInter240,Brodalumab,brodalumab
+DDInter242,Bromfenac (ophthalmic),bromfenac (ophthalmic)
+DDInter497,Demecarium (ophthalmic),demecarium (ophthalmic)
+DDInter562,Dimenhydrinate,dimenhydrinate
+DDInter984,Isoflurophate (ophthalmic),isoflurophate (ophthalmic)
+DDInter1463,Physostigmine (ophthalmic),physostigmine (ophthalmic)
+DDInter255,Busulfan,busulfan
+DDInter1660,Semaglutide,semaglutide
+DDInter272,Calcium chloride,calcium chloride
+DDInter92,Amyl Nitrite,amyl nitrite
+DDInter396,Clevidipine,clevidipine
+DDInter452,Cyclandelate,cyclandelate
+DDInter657,Epoprostenol,epoprostenol
+DDInter882,Hydralazine,hydralazine
+DDInter908,Iloprost,iloprost
+DDInter1205,Metyrosine,metyrosine
+DDInter1282,Nesiritide,nesiritide
+DDInter1667,Silodosin,silodosin
+DDInter1827,Tolazoline,tolazoline
+DDInter281,Canakinumab,canakinumab
+DDInter284,Cannabidiol,cannabidiol
+DDInter285,Capecitabine,capecitabine
+DDInter1188,Methylnaltrexone,methylnaltrexone
+DDInter301,Carisoprodol,carisoprodol
+DDInter302,Carmustine,carmustine
+DDInter319,Cefixime,cefixime
+DDInter323,Cefotaxime,cefotaxime
+DDInter326,Cefpodoxime,cefpodoxime
+DDInter327,Cefprozil,cefprozil
+DDInter330,Ceftazidime,ceftazidime
+DDInter334,Ceftriaxone,ceftriaxone
+DDInter338,Cenobamate,cenobamate
+DDInter340,Ceritinib,ceritinib
+DDInter342,Certolizumab pegol,certolizumab pegol
+DDInter368,Cholestyramine,cholestyramine
+DDInter408,Clofibrate,clofibrate
+DDInter1228,Mipomersen,mipomersen
+DDInter1840,Trabectedin,trabectedin
+DDInter1025,Laronidase,laronidase
+DDInter366,Chlorzoxazone,chlorzoxazone
+DDInter1396,Paromomycin,paromomycin
+DDInter1591,Rifamycin,rifamycin
+DDInter369,Cholic Acid,cholic acid
+DDInter24,Activated charcoal,activated charcoal
+DDInter447,Creatine,creatine
+DDInter1173,Methohexital,methohexital
+DDInter381,Cinacalcet,cinacalcet
+DDInter354,Chlorcyclizine,chlorcyclizine
+DDInter453,Cyclizine,cyclizine
+DDInter738,Flavoxate,flavoxate
+DDInter1146,Memantine,memantine
+DDInter1349,Orphenadrine,orphenadrine
+DDInter1365,Oxybutynin,oxybutynin
+DDInter1441,Phenindamine,phenindamine
+DDInter1155,Mepyramine,mepyramine
+DDInter1637,Salsalate,salsalate
+DDInter1833,Tolvaptan,tolvaptan
+DDInter398,Clindamycin,clindamycin
+DDInter418,Cloxacillin,cloxacillin
+DDInter611,Dutasteride,dutasteride
+DDInter732,Fexofenadine,fexofenadine
+DDInter750,Flunisolide (nasal),flunisolide (nasal)
+DDInter756,Fluorometholone (ophthalmic),fluorometholone (ophthalmic)
+DDInter854,Halothane,halothane
+DDInter904,Idarubicin,idarubicin
+DDInter1096,Loteprednol (ophthalmic),loteprednol (ophthalmic)
+DDInter1207,Mezlocillin,mezlocillin
+DDInter1234,Mitoxantrone,mitoxantrone
+DDInter1394,Paricalcitol,paricalcitol
+DDInter189,Benzylpenicillin,benzylpenicillin
+DDInter190,Benzylpenicillin (potassium),benzylpenicillin (potassium)
+DDInter191,Benzylpenicillin (sodium),benzylpenicillin (sodium)
+DDInter1724,Sulfamethoxazole,sulfamethoxazole
+DDInter390,Citric acid,citric acid
+DDInter1464,Picosulfuric acid,picosulfuric acid
+DDInter158,Aztreonam,aztreonam
+DDInter159,Bacampicillin,bacampicillin
+DDInter310,Cefadroxil,cefadroxil
+DDInter312,Cefamandole,cefamandole
+DDInter314,Cefazolin,cefazolin
+DDInter317,Cefepime,cefepime
+DDInter320,Cefmetazole,cefmetazole
+DDInter321,Cefonicid,cefonicid
+DDInter322,Cefoperazone,cefoperazone
+DDInter324,Cefotetan,cefotetan
+DDInter325,Cefoxitin,cefoxitin
+DDInter329,Ceftaroline fosamil,ceftaroline fosamil
+DDInter331,Ceftibuten,ceftibuten
+DDInter332,Ceftizoxime,ceftizoxime
+DDInter311,Cefalotin,cefalotin
+DDInter313,Cefapirin,cefapirin
+DDInter328,Cefradine,cefradine
+DDInter434,Colistimethate,colistimethate
+DDInter467,Dalbavancin,dalbavancin
+DDInter468,Dalfampridine,dalfampridine
+DDInter477,Daptomycin,daptomycin
+DDInter511,Desvenlafaxine,desvenlafaxine
+DDInter586,Doripenem,doripenem
+DDInter677,Estazolam,estazolam
+DDInter791,Gabapentin,gabapentin
+DDInter532,Diamorphine,diamorphine
+DDInter1036,Lenvatinib,lenvatinib
+DDInter1059,Levomilnacipran,levomilnacipran
+DDInter1071,Lincomycin,lincomycin
+DDInter1090,Loracarbef,loracarbef
+DDInter1169,Methenamine,methenamine
+DDInter1195,Meticillin,meticillin
+DDInter1275,Nelarabine,nelarabine
+DDInter1317,Novobiocin,novobiocin
+DDInter1347,Oritavancin,oritavancin
+DDInter1363,Oxtriphylline,oxtriphylline
+DDInter1409,Peginterferon beta-1a,peginterferon beta-1a
+DDInter1416,Pemoline,pemoline
+DDInter1547,Pyrazinamide,pyrazinamide
+DDInter1558,Quinupristin,quinupristin
+DDInter1706,Spectinomycin,spectinomycin
+DDInter1722,Sulfadoxine,sulfadoxine
+DDInter1746,Tapentadol,tapentadol
+DDInter1803,Ticarcillin,ticarcillin
+DDInter1805,Tigecycline,tigecycline
+DDInter1875,Trimetrexate,trimetrexate
+DDInter1935,Vilazodone,vilazodone
+DDInter1948,Vortioxetine,vortioxetine
+DDInter1956,Zalcitabine,zalcitabine
+DDInter403,Clobetasol (topical),clobetasol (topical)
+DDInter424,Cobicistat,cobicistat
+DDInter425,Cobimetinib,cobimetinib
+DDInter427,Cocaine (topical),cocaine (topical)
+DDInter431,Colchicine,colchicine
+DDInter1315,Norgestrel,norgestrel
+DDInter768,Fluticasone (topical),fluticasone (topical)
+DDInter869,Human C1-esterase inhibitor,human c1-esterase inhibitor
+DDInter462,Dabrafenib,dabrafenib
+DDInter464,Daclatasvir,daclatasvir
+DDInter466,Dactinomycin,dactinomycin
+DDInter473,Dantrolene,dantrolene
+DDInter1353,Ospemifene,ospemifene
+DDInter488,Deferasirox,deferasirox
+DDInter715,Felbamate,felbamate
+DDInter741,Flibanserin,flibanserin
+DDInter1726,Sulfinpyrazone,sulfinpyrazone
+DDInter1755,Telaprevir,telaprevir
+DDInter492,Deflazacort,deflazacort
+DDInter1452,Phenylbutyric acid,phenylbutyric acid
+DDInter495,Delafloxacin,delafloxacin
+DDInter499,Denileukin diftitox,denileukin diftitox
+DDInter512,Deutetrabenazine,deutetrabenazine
+DDInter1136,Mecobalamin,mecobalamin
+DDInter1386,Panitumumab,panitumumab
+DDInter520,Dexmedetomidine,dexmedetomidine
+DDInter567,Dinoprostone (topical),dinoprostone (topical)
+DDInter549,Difenoxin,difenoxin
+DDInter1006,Kava,kava
+DDInter1572,Rasagiline,rasagiline
+DDInter571,Diphenoxylate,diphenoxylate
+DDInter572,Dipivefrin (ophthalmic),dipivefrin (ophthalmic)
+DDInter578,Docetaxel,docetaxel
+DDInter1243,Moricizine,moricizine
+DDInter587,Dornase alfa,dornase alfa
+DDInter595,Doxercalciferol,doxercalciferol
+DDInter1172,Methocarbamol,methocarbamol
+DDInter1871,Trimethadione,trimethadione
+DDInter609,Dupilumab,dupilumab
+DDInter610,Durvalumab,durvalumab
+DDInter72,Aminolevulinic acid,aminolevulinic acid
+DDInter1182,Methyl aminolevulinate (topical),methyl aminolevulinate (topical)
+DDInter613,Dyphylline,dyphylline
+DDInter615,Echothiophate (ophthalmic),echothiophate (ophthalmic)
+DDInter621,Edoxaban,edoxaban
+DDInter1046,Levetiracetam,levetiracetam
+DDInter997,Ivacaftor,ivacaftor
+DDInter221,Boceprevir,boceprevir
+DDInter703,Etravirine,etravirine
+DDInter819,Ginkgo biloba,ginkgo biloba
+DDInter980,Isavuconazonium,isavuconazonium
+DDInter1035,Lenalidomide,lenalidomide
+DDInter1085,Lomitapide,lomitapide
+DDInter1087,Lonafarnib,lonafarnib
+DDInter1125,Maraviroc,maraviroc
+DDInter1229,Mirabegron,mirabegron
+DDInter1477,Pirfenidone,pirfenidone
+DDInter1609,Rivaroxaban,rivaroxaban
+DDInter1627,Rufinamide,rufinamide
+DDInter1733,Suvorexant,suvorexant
+DDInter1768,Terbinafine,terbinafine
+DDInter1802,Ticagrelor,ticagrelor
+DDInter1835,Topotecan,topotecan
+DDInter731,Fesoterodine,fesoterodine
+DDInter905,Idelalisib,idelalisib
+DDInter1327,Olaparib,olaparib
+DDInter1479,Pitavastatin,pitavastatin
+DDInter1673,Simeprevir,simeprevir
+DDInter1711,Stiripentol,stiripentol
+DDInter1815,Tiotropium,tiotropium
+DDInter1899,Umeclidinium,umeclidinium
+DDInter633,Elvitegravir,elvitegravir
+DDInter992,Isoxsuprine,isoxsuprine
+DDInter1517,Pretomanid,pretomanid
+DDInter1600,Riociguat,riociguat
+DDInter1771,Teriflunomide,teriflunomide
+DDInter640,Encorafenib,encorafenib
+DDInter642,Enfortumab vedotin,enfortumab vedotin
+DDInter1031,Ledipasvir,ledipasvir
+DDInter1052,Levocarnitine,levocarnitine
+DDInter1067,Lidocaine (ophthalmic),lidocaine (ophthalmic)
+DDInter950,Inulin,inulin
+DDInter1089,Lopinavir,lopinavir
+DDInter1100,Lubiprostone,lubiprostone
+DDInter1101,Lumacaftor,lumacaftor
+DDInter1131,Mecasermin,mecasermin
+DDInter1260,Nalmefene,nalmefene
+DDInter1193,Methyltestosterone,methyltestosterone
+DDInter1203,Metronidazole (topical),metronidazole (topical)
+DDInter1210,Miconazole (topical),miconazole (topical)
+DDInter910,Imiglucerase,imiglucerase
+DDInter373,Chromic chloride,chromic chloride
+DDInter837,Golimumab,golimumab
+DDInter1337,Omalizumab,omalizumab
+DDInter1563,Raltegravir,raltegravir
+DDInter1594,Rilonacept,rilonacept
+DDInter1608,Rituximab,rituximab
+DDInter1652,Secukinumab,secukinumab
+DDInter1668,Siltuximab,siltuximab
+DDInter1824,Tocilizumab,tocilizumab
+DDInter1825,Tofacitinib,tofacitinib
+DDInter1907,Ustekinumab,ustekinumab
+DDInter1923,Vedolizumab,vedolizumab
+DDInter1541,Propylthiouracil,propylthiouracil
+DDInter1284,Netupitant,netupitant
+DDInter1160,Mestranol,mestranol
+DDInter1142,Melatonin,melatonin
+DDInter1596,Riluzole,riluzole
+DDInter1614,Roflumilast,roflumilast
+DDInter1336,Omadacycline,omadacycline
+DDInter1536,Proparacaine (ophthalmic),proparacaine (ophthalmic)
+DDInter1690,Sodium oxybate,sodium oxybate
+DDInter1198,Metocurine,metocurine
+DDInter1385,Pancuronium,pancuronium
+DDInter1473,Pipecuronium,pipecuronium
+DDInter1922,Vecuronium,vecuronium
+DDInter1403,Pegaptanib (ophthalmic),pegaptanib (ophthalmic)
+DDInter1410,Pegloticase,pegloticase
+DDInter1402,Pegademase,pegademase
+DDInter1405,Pegfilgrastim,pegfilgrastim
+DDInter1406,Peginesatide,peginesatide
+DDInter1461,Phylloquinone,phylloquinone
+DDInter1465,Pilocarpine,pilocarpine
+DDInter1466,Pilocarpine (ophthalmic),pilocarpine (ophthalmic)
+DDInter1241,Monopotassium phosphate,monopotassium phosphate
+DDInter1518,Prilocaine,prilocaine
+DDInter469,Dalfopristin,dalfopristin
+DDInter1663,Sevelamer,sevelamer
+DDInter1963,Zinc acetate,zinc acetate
+DDInter50,Aloe Vera Leaf,aloe vera leaf
+DDInter374,Chromium picolinate,chromium picolinate
+DDInter441,Copanlisib,copanlisib
+DDInter678,Esterified estrogens,esterified estrogens
+DDInter1331,Olodaterol,olodaterol
+DDInter1700,Somatrem,somatrem
+DDInter1227,Minoxidil (topical),minoxidil (topical)
+DDInter1550,Pyrimethamine,pyrimethamine
+DDInter1651,Secretin human,secretin human
+DDInter1306,Nitrous acid,nitrous acid
+DDInter1693,Sodium sulfate,sodium sulfate
+DDInter1352,Osimertinib,osimertinib
+DDInter1924,Velpatasvir,velpatasvir
+DDInter1552,Quazepam,quazepam
+DDInter1806,Tildrakizumab,tildrakizumab
+DDInter1122,Manganese (sulfate),manganese (sulfate)
+DDInter1121,Manganese (chloride),manganese (chloride)
+DDInter1934,Vilanterol,vilanterol
+DDInter1906,Ursodeoxycholic acid,ursodeoxycholic acid
+DDInter1940,Vismodegib,vismodegib
+DDInter727,Ferrous sulfate anhydrous,ferrous sulfate anhydrous
+DDInter849,Guselkumab,guselkumab
+DDInter922,Inebilizumab,inebilizumab
+DDInter977,Iron protein succinylate,iron protein succinylate
+DDInter1003,Ixekizumab,ixekizumab
+DDInter1238,Mogamulizumab,mogamulizumab
+DDInter1321,Ocrelizumab,ocrelizumab
+DDInter1641,Sarecycline,sarecycline
+DDInter1643,Sarilumab,sarilumab
+DDInter215,Bismuth subsalicylate,bismuth subsalicylate
+DDInter1050,Levobunolol (ophthalmic),levobunolol (ophthalmic)
+DDInter1196,Metipranolol (ophthalmic),metipranolol (ophthalmic)
+DDInter746,Fludeoxyglucose (18F),fludeoxyglucose (18f)
+DDInter1048,Levobetaxolol (ophthalmic),levobetaxolol (ophthalmic)
+DDInter1501,Potassium perchlorate,potassium perchlorate
+DDInter976,Iron Dextran,iron dextran
+DDInter983,Isoflurane,isoflurane
+DDInter961,Iopamidol,iopamidol
+DDInter1016,Lactitol,lactitol
+DDInter744,Flucytosine,flucytosine
+DDInter816,Gentamicin (topical),gentamicin (topical)
+DDInter1007,Ketamine,ketamine
+DDInter1480,Pitolisant,pitolisant
+DDInter1492,Ponatinib,ponatinib
+DDInter1891,Tucatinib,tucatinib
+DDInter1897,Ulipristal,ulipristal
+DDInter1926,Venetoclax,venetoclax
+DDInter1576,Regorafenib,regorafenib
+DDInter811,Gemcitabine,gemcitabine
+DDInter814,Gemtuzumab ozogamicin,gemtuzumab ozogamicin
+DDInter1163,Metaxalone,metaxalone
+DDInter1020,Lamotrigine,lamotrigine
+DDInter1032,Lefamulin,lefamulin
+DDInter1053,Levocetirizine,levocetirizine
+DDInter460,Cytarabine,cytarabine
+DDInter463,Dacarbazine,dacarbazine
+DDInter742,Floxuridine,floxuridine
+DDInter745,Fludarabine,fludarabine
+DDInter894,Hydroxyurea,hydroxyurea
+DDInter1133,Mechlorethamine,mechlorethamine
+DDInter1144,Melphalan,melphalan
+DDInter1156,Mercaptopurine,mercaptopurine
+DDInter1232,Mitomycin,mitomycin
+DDInter1425,Pentostatin,pentostatin
+DDInter1714,Streptozocin,streptozocin
+DDInter1762,Temozolomide,temozolomide
+DDInter1902,Uracil mustard,uracil mustard
+DDInter1685,Sodium chloride,sodium chloride
+DDInter114,Arbutamine,arbutamine
+DDInter1181,Methsuximide,methsuximide
+DDInter1364,Oxybuprocaine (ophthalmic),oxybuprocaine (ophthalmic)
+DDInter357,Chlormezanone,chlormezanone
+DDInter361,Chlorphenesin,chlorphenesin
+DDInter382,Cinchocaine (topical),cinchocaine (topical)
+DDInter906,Ifosfamide,ifosfamide
+DDInter1392,Paramethadione,paramethadione
+DDInter1437,Phenacemide,phenacemide
+DDInter1446,Phensuximide,phensuximide
+DDInter1801,Tiagabine,tiagabine
+DDInter648,Entrectinib,entrectinib
+DDInter786,Fostemsavir,fostemsavir
+DDInter817,Gilteritinib,gilteritinib
+DDInter822,Glasdegib,glasdegib
+DDInter1351,Osilodrostat,osilodrostat
+DDInter1577,Relugolix,relugolix
+DDInter1588,Ribociclib,ribociclib
+DDInter1676,Siponimod,siponimod
+DDInter1863,Triclabendazole,triclabendazole
+DDInter1909,Valbenazine,valbenazine
+DDInter1296,Nintedanib,nintedanib
+DDInter958,Iodixanol,iodixanol
+DDInter1179,Methoxyflurane,methoxyflurane
+DDInter960,Iohexol,iohexol
+DDInter1369,Oxymetazoline (ophthalmic),oxymetazoline (ophthalmic)
+DDInter1368,Oxymetazoline (nasal),oxymetazoline (nasal)
+DDInter1370,Oxymetazoline (topical),oxymetazoline (topical)
+DDInter1428,Perampanel,perampanel
+DDInter1508,Prasugrel,prasugrel
+DDInter1873,Trimethobenzamide,trimethobenzamide
+DDInter122,Artesunate,artesunate
+DDInter769,Fluvastatin,fluvastatin
+DDInter1624,Rotigotine,rotigotine
+DDInter1656,Selexipag,selexipag
+DDInter1041,Leucovorin,leucovorin
+DDInter1525,Procaine,procaine
+DDInter1795,Thiopental,thiopental
+DDInter1747,Tasimelteon,tasimelteon
+DDInter1960,Ziconotide,ziconotide
+DDInter503,Desflurane,desflurane
+DDInter1171,Methionine,methionine
+DDInter661,Erdafitinib,erdafitinib
+DDInter1314,Norgestimate,norgestimate
+DDInter1170,Methimazole,methimazole
+DDInter911,Imipenem,imipenem
+DDInter349,Chloral hydrate,chloral hydrate
+DDInter1307,Nitrous oxide,nitrous oxide
+DDInter1391,Paraldehyde,paraldehyde
+DDInter1107,Lutein,lutein
+DDInter856,Heparin,heparin
+DDInter1454,Phenylephrine (nasal),phenylephrine (nasal)
+DDInter1457,Phenylephrine (topical),phenylephrine (topical)
+DDInter407,Clofedanol,clofedanol
+DDInter784,Fospropofol,fospropofol
+DDInter1350,Oseltamivir,oseltamivir
+DDInter28,Adapalene,adapalene
+DDInter794,Gadodiamide,gadodiamide
+DDInter1849,Travoprost,travoprost
+DDInter700,Etomidate,etomidate
+DDInter891,Hydroxocobalamin,hydroxocobalamin
+DDInter1468,Pimecrolimus,pimecrolimus
+DDInter1249,Mupirocin,mupirocin
+DDInter711,Famciclovir,famciclovir
+DDInter1302,Nitric Oxide,nitric oxide
+DDInter1562,Raloxifene,raloxifene
+DDInter234,Brimonidine,brimonidine
+DDInter70,Aminocaproic acid,aminocaproic acid
+DDInter1958,Zanamivir,zanamivir
+DDInter799,Gadoversetamide,gadoversetamide
+DDInter1318,Nystatin,nystatin
+DDInter1028,Latanoprost,latanoprost
+DDInter10,Acamprosate,acamprosate
+DDInter490,Deferoxamine,deferoxamine
+DDInter30,Adefovir dipivoxil,adefovir dipivoxil
+DDInter1332,Olopatadine,olopatadine
+DDInter1587,Ribavirin,ribavirin
+DDInter913,Imiquimod,imiquimod
+DDInter1884,Tropicamide,tropicamide
+DDInter356,Chlorhexidine,chlorhexidine
+DDInter207,Bimatoprost,bimatoprost
+DDInter1012,Ketotifen,ketotifen
+DDInter506,Desloratadine,desloratadine
+DDInter1655,Selenium Sulfide,selenium sulfide
+DDInter153,Azelastine,azelastine
+DDInter449,Cromoglicic acid,cromoglicic acid
+DDInter806,Ganciclovir,ganciclovir
+DDInter1040,Letrozole,letrozole
+DDInter1748,Tazarotene,tazarotene
+DDInter1754,Tegaserod,tegaserod
+DDInter65,Amifostine,amifostine
+DDInter789,Fulvestrant,fulvestrant
+DDInter752,Fluocinonide,fluocinonide
+DDInter377,Ciclopirox,ciclopirox
+DDInter1972,Zopiclone,zopiclone
+DDInter1049,Levobunolol,levobunolol
+DDInter736,Finasteride,finasteride
+DDInter95,Anastrozole,anastrozole
+DDInter237,Brinzolamide,brinzolamide
+DDInter751,Fluocinolone acetonide,fluocinolone acetonide
+DDInter616,Econazole,econazole
+DDInter1919,Varenicline,varenicline
+DDInter1945,Vorapaxar,vorapaxar
+DDInter105,Antithrombin III human,antithrombin iii human
+DDInter9,Acalabrutinib,acalabrutinib
+DDInter283,Cangrelor,cangrelor
+DDInter286,Caplacizumab,caplacizumab
+DDInter470,Dalteparin,dalteparin
+DDInter471,Danaparoid,danaparoid
+DDInter491,Defibrotide,defibrotide
+DDInter505,Desirudin,desirudin
+DDInter523,Dextran (-1),dextran (-1)
+DDInter524,Dextran (high molecular weight),dextran (high molecular weight)
+DDInter525,Dextran (low molecular weight),dextran (low molecular weight)
+DDInter645,Enoxaparin,enoxaparin
+DDInter855,Hemin,hemin
+DDInter1686,Sodium citrate,sodium citrate
+DDInter1812,Tinzaparin,tinzaparin
+DDInter1848,Trastuzumab emtansine,trastuzumab emtansine
+DDInter857,Heparin (flush),heparin (flush)
+DDInter1844,Tranexamic acid,tranexamic acid
+DDInter479,Darbepoetin alfa,darbepoetin alfa
+DDInter111,Apremilast,apremilast
+DDInter785,Fostamatinib,fostamatinib
+DDInter210,Binimetinib,binimetinib
+DDInter259,Cabazitaxel,cabazitaxel
+DDInter375,Ciclesonide,ciclesonide
+DDInter625,Elagolix,elagolix
+DDInter671,Erythropoietin,erythropoietin
+DDInter1339,Omega-3 fatty acids,omega-3 fatty acids
+DDInter299,Carfilzomib,carfilzomib
+DDInter113,Aprotinin,aprotinin
+DDInter421,Coagulation factor VIIa Recombinant Human,coagulation factor viia recombinant human
+DDInter101,Anti-inhibitor coagulant complex,anti-inhibitor coagulant complex
+DDInter291,Capsicum,capsicum
+DDInter417,Clove,clove
+DDInter501,Deoxycholic acid,deoxycholic acid
+DDInter808,Garlic,garlic
+DDInter818,Ginger,ginger
+DDInter899,Ibrutinib,ibrutinib
+DDInter1280,Nepafenac (ophthalmic),nepafenac (ophthalmic)
+DDInter1542,Protein C,protein c
+DDInter1566,Ramucirumab,ramucirumab
+DDInter953,Iodide I-123,iodide i-123
+DDInter954,Iodide I-131,iodide i-131
+DDInter1719,Sugammadex,sugammadex
+DDInter104,Antithrombin Alfa,antithrombin alfa
+DDInter969,Ipilimumab,ipilimumab
+DDInter121,Artemether,artemether
+DDInter123,Articaine,articaine
+DDInter200,Betrixaban,betrixaban
+DDInter143,Avatrombopag,avatrombopag
+DDInter287,Capmatinib,capmatinib
+DDInter994,Istradefylline,istradefylline
+DDInter1027,Lasmiditan,lasmiditan
+DDInter1039,Letermovir,letermovir
+DDInter1094,Lorlatinib,lorlatinib
+DDInter1281,Neratinib,neratinib
+DDInter1297,Niraparib,niraparib
+DDInter1484,Plicamycin,plicamycin
+DDInter1628,Ruxolitinib,ruxolitinib
+DDInter1659,Selumetinib,selumetinib
+DDInter1153,Mepivacaine,mepivacaine
+DDInter1617,Romiplostim,romiplostim
+DDInter358,Chloroprocaine,chloroprocaine
+DDInter370,Choline salicylate,choline salicylate
+DDInter1681,Sodium acetate,sodium acetate
+DDInter1883,Tromethamine,tromethamine
+DDInter1774,Testolactone,testolactone
+DDInter437,Conestat alfa,conestat alfa
+DDInter1491,Pomalidomide,pomalidomide
+DDInter697,Etidocaine,etidocaine
+DDInter1779,Tetracaine,tetracaine
+DDInter481,Darolutamide,darolutamide
+DDInter563,Dimercaprol,dimercaprol
+DDInter626,Elbasvir,elbasvir
+DDInter1106,Lusutrombopag,lusutrombopag
+DDInter1695,Sofosbuvir,sofosbuvir
+DDInter1038,Lesinurad,lesinurad
+DDInter1449,Phenyl salicylate,phenyl salicylate
+DDInter978,Iron sucrose,iron sucrose
+DDInter1846,Trastuzumab,trastuzumab
+DDInter1964,Zinc chloride,zinc chloride
+DDInter1688,Sodium glycerophosphate,sodium glycerophosphate
+DDInter996,Ivabradine,ivabradine
+DDInter1001,Ixabepilone,ixabepilone
+DDInter1002,Ixazomib,ixazomib
+DDInter530,Dextrothyroxine,dextrothyroxine
+DDInter827,Glucagon,glucagon
+DDInter1023,Lanthanum carbonate,lanthanum carbonate
+DDInter1034,Lemborexant,lemborexant
+DDInter1379,Palbociclib,palbociclib
+DDInter1626,Rucaparib,rucaparib
+DDInter1701,Sonidegib,sonidegib
+DDInter1737,Tafamidis,tafamidis
+DDInter1111,Macitentan,macitentan
+DDInter1380,Palifermin,palifermin
+DDInter1584,Retapamulin (topical),retapamulin (topical)
+DDInter988,Isosorbide,isosorbide
+DDInter1742,Talazoparib,talazoparib
+DDInter1797,Thiotepa,thiotepa
+DDInter1842,Trametinib,trametinib
+DDInter723,Ferric carboxymaltose,ferric carboxymaltose
+DDInter725,Ferrous fumarate,ferrous fumarate
+DDInter726,Ferrous gluconate,ferrous gluconate
+DDInter1687,Sodium ferric gluconate complex,sodium ferric gluconate complex
+DDInter730,Ferumoxytol,ferumoxytol
+DDInter174,Belinostat,belinostat
+DDInter1645,Saw palmetto,saw palmetto
+DDInter880,Hyaluronic acid,hyaluronic acid
+DDInter13,Acenocoumarol,acenocoumarol
+DDInter352,Chloramphenicol (ophthalmic),chloramphenicol (ophthalmic)
+DDInter3,Abametapir (topical),abametapir (topical)
+DDInter29,Adapalene (topical),adapalene (topical)
+DDInter152,Azelaic acid (topical),azelaic acid (topical)
+DDInter1634,Salicylic acid (topical),salicylic acid (topical)
+DDInter1749,Tazarotene (topical),tazarotene (topical)
+DDInter1854,Tretinoin (topical),tretinoin (topical)
+DDInter26,Acyclovir (topical),acyclovir (topical)
+DDInter1044,Levamisole,levamisole
+DDInter47,Alitretinoin (topical),alitretinoin (topical)
+DDInter203,Bexarotene (topical),bexarotene (topical)
+DDInter250,Bupivacaine (liposome),bupivacaine (liposome)
+DDInter1780,Tetracaine (ophthalmic),tetracaine (ophthalmic)
+DDInter1438,Phenazopyridine,phenazopyridine
+DDInter1573,Rasburicase,rasburicase
+DDInter1672,Silver sulfadiazine (topical),silver sulfadiazine (topical)
+DDInter1739,Tafenoquine,tafenoquine
+DDInter914,Imiquimod (topical),imiquimod (topical)
+DDInter1178,Methoxsalen (topical),methoxsalen (topical)
+DDInter1322,Octasulfur (topical),octasulfur (topical)
+DDInter767,Fluticasone (nasal),fluticasone (nasal)
+DDInter612,Duvelisib,duvelisib
+DDInter714,Fedratinib,fedratinib
+DDInter1882,Troleandomycin,troleandomycin
+DDInter186,Benzoyl peroxide (topical),benzoyl peroxide (topical)
+DDInter399,Clindamycin (topical),clindamycin (topical)
+DDInter436,Collagenase clostridium histolyticum (topical),collagenase clostridium histolyticum (topical)
+DDInter500,Denosumab,denosumab
+DDInter1138,Medrysone (ophthalmic),medrysone (ophthalmic)
+DDInter552,Difluprednate (ophthalmic),difluprednate (ophthalmic)
+DDInter564,Dimethyl fumarate,dimethyl fumarate
+DDInter568,Dinutuximab,dinutuximab
+DDInter160,Bacillus calmette-guerin substrain tice live antigen,bacillus calmette-guerin substrain tice live antigen
+DDInter737,Fingolimod,fingolimod
+DDInter1127,Measles virus vaccine live attenuated,measles virus vaccine live attenuated
+DDInter1248,Mumps virus strain B level jeryl lynn live antigen,mumps virus strain b level jeryl lynn live antigen
+DDInter1623,Rotavirus vaccine,rotavirus vaccine
+DDInter1625,Rubella virus vaccine,rubella virus vaccine
+DDInter1677,Sipuleucel-T,sipuleucel-t
+DDInter1953,Yellow Fever Vaccine,yellow fever vaccine
+DDInter570,Diphenhydramine (topical),diphenhydramine (topical)
+DDInter1418,Penciclovir (topical),penciclovir (topical)
+DDInter863,Histamine,histamine
+DDInter1781,Tetracaine (topical),tetracaine (topical)
+DDInter1720,Sulfacetamide (ophthalmic),sulfacetamide (ophthalmic)
+DDInter1583,Resorcinol (topical),resorcinol (topical)
+DDInter1868,Trifluridine,trifluridine
+DDInter999,Ivermectin (topical),ivermectin (topical)
+DDInter955,Iodine,iodine
+DDInter956,Iodine (topical),iodine (topical)
+DDInter766,Fluticasone,fluticasone
+DDInter1063,Levosalbutamol,levosalbutamol
+DDInter1435,Pexidartinib,pexidartinib
+DDInter673,Esketamine,esketamine
+DDInter353,Chloramphenicol (otic),chloramphenicol (otic)
+DDInter918,Indium In-111 oxyquinoline,indium in-111 oxyquinoline
+DDInter1560,Racepinephrine,racepinephrine
+DDInter755,Fluorometholone,fluorometholone
+DDInter151,Azelaic acid,azelaic acid
+DDInter1301,Nitrazepam,nitrazepam
+DDInter266,Calcipotriol,calcipotriol
+DDInter1942,Vitamin D,vitamin d
+DDInter402,Clobetasol,clobetasol
+DDInter1912,Valganciclovir,valganciclovir
+DDInter415,Clostridium tetani toxoid antigen (formaldehyde inactivated),clostridium tetani toxoid antigen (formaldehyde inactivated)
+DDInter64,Amifampridine,amifampridine
+DDInter100,Anthrax vaccine,anthrax vaccine
+DDInter131,Atezolizumab,atezolizumab
+DDInter178,Bendamustine,bendamustine
+DDInter1599,Rimexolone (ophthalmic),rimexolone (ophthalmic)
+DDInter688,Etelcalcetide,etelcalcetide
+DDInter807,Ganirelix,ganirelix
+DDInter282,Candida albicans,candida albicans
+DDInter428,Coccidioides immitis spherule,coccidioides immitis spherule
+DDInter858,Hepatitis A Vaccine,hepatitis a vaccine
+DDInter860,Hepatitis B Vaccine (Recombinant),hepatitis b vaccine (recombinant)
+DDInter875,Human papillomavirus type 11 L1 capsid protein antigen,human papillomavirus type 11 l1 capsid protein antigen
+DDInter1065,Licorice,licorice
+DDInter1308,Nivolumab,nivolumab
+DDInter1413,Pembrolizumab,pembrolizumab
+DDInter1486,Poliovirus type 1 antigen (formaldehyde inactivated),poliovirus type 1 antigen (formaldehyde inactivated)
+DDInter1618,Romosozumab,romosozumab
+DDInter1862,Trichophyton mentagrophytes,trichophyton mentagrophytes
+DDInter1889,Tuberculin purified protein derivative,tuberculin purified protein derivative
+DDInter1148,Menotropins,menotropins
+DDInter1014,Lacosamide,lacosamide
+DDInter1823,Tocainide,tocainide
+DDInter1110,Macimorelin,macimorelin
+DDInter772,Follitropin,follitropin
+DDInter838,Gonadorelin,gonadorelin
+DDInter1904,Urofollitropin,urofollitropin
+DDInter7,Abemaciclib,abemaciclib
+DDInter735,Filgrastim,filgrastim
+DDInter1561,Radium Ra 223 dichloride,radium ra 223 dichloride
+DDInter1638,Samarium (153Sm) lexidronam,samarium (153sm) lexidronam
+DDInter1642,Sargramostim,sargramostim
+DDInter1692,"Sodium phosphate, monobasic (p32)","sodium phosphate, monobasic (p32)"
+DDInter289,Capromab pendetide,capromab pendetide
+DDInter792,Gadobenic acid,gadobenic acid
+DDInter148,Azacitidine,azacitidine
+DDInter478,Daratumumab,daratumumab
+DDInter487,Decitabine,decitabine
+DDInter630,Elotuzumab,elotuzumab
+DDInter1086,Lomustine,lomustine
+DDInter1320,Obinutuzumab,obinutuzumab
+DDInter1324,Ofatumumab,ofatumumab
+DDInter1328,Olaratumab,olaratumab
+DDInter1502,Pralatrexate,pralatrexate
+DDInter33,Aflibercept,aflibercept
+DDInter1757,Telbivudine,telbivudine
+DDInter39,Alectinib,alectinib
+DDInter201,Bevacizumab,bevacizumab
+DDInter1221,Milrinone,milrinone
+DDInter1586,Revefenacin,revefenacin
+DDInter555,Digoxin Immune Fab (Ovine),digoxin immune fab (ovine)
+DDInter1000,Ivosidenib,ivosidenib
+DDInter1026,Larotrectinib,larotrectinib
+DDInter1376,Ozanimod,ozanimod
+DDInter1743,Talimogene laherparepvec,talimogene laherparepvec
+DDInter1901,Upadacitinib,upadacitinib
+DDInter952,Iobenguane (I-131),iobenguane (i-131)
+DDInter461,Cytarabine (liposomal),cytarabine (liposomal)
+DDInter634,Emapalumab,emapalumab
+DDInter465,Dacomitinib,dacomitinib
+DDInter713,Febuxostat,febuxostat
+DDInter1760,Telotristat ethyl,telotristat ethyl
+DDInter1060,Levonordefrin,levonordefrin
+DDInter522,Dexrazoxane,dexrazoxane
+DDInter1345,Oprelvekin,oprelvekin
+DDInter376,Ciclesonide (nasal),ciclesonide (nasal)
+DDInter1932,Vibrio cholerae CVD 103-HgR strain live antigen (live),vibrio cholerae cvd 103-hgr strain live antigen (live)
+DDInter1657,Selinexor,selinexor
+DDInter874,Human immunoglobulin G (subcutaneous),human immunoglobulin g (subcutaneous)
+DDInter585,Doravirine,doravirine
+DDInter1598,Rimegepant,rimegepant
+DDInter1750,Tazemetostat,tazemetostat
+DDInter1602,Risankizumab,risankizumab
+DDInter574,Diroximel fumarate,diroximel fumarate
+DDInter871,Human immunoglobulin G (intramuscular),human immunoglobulin g (intramuscular)
+DDInter841,Grazoprevir,grazoprevir
+DDInter867,Human adenovirus e serotype 4 strain cl-68578 antigen,human adenovirus e serotype 4 strain cl-68578 antigen
+DDInter206,Bifidobacterium longum infantis,bifidobacterium longum infantis
+DDInter1240,Monomethyl fumarate,monomethyl fumarate
+DDInter1680,"Smallpox (Vaccinia) Vaccine, Live","smallpox (vaccinia) vaccine, live"
+DDInter1894,Typhoid vaccine (live),typhoid vaccine (live)
+DDInter1920,Varicella Zoster Vaccine (Recombinant),varicella zoster vaccine (recombinant)
+DDInter639,Enasidenib,enasidenib
+DDInter1208,Micafungin,micafungin
+DDInter1222,Miltefosine,miltefosine
+DDInter1395,Paritaprevir,paritaprevir
+DDInter1434,Pertuzumab,pertuzumab
+DDInter1931,Vibrio cholerae CVD 103-HgR strain live antigen,vibrio cholerae cvd 103-hgr strain live antigen
+DDInter614,Echinacea,echinacea
+DDInter924,Influenza A virus A/California/7/2009 (H1N1)-like antigen (propiolactone inactivated),influenza a virus a/california/7/2009 (h1n1)-like antigen (propiolactone inactivated)
+DDInter1105,Lurbinectedin,lurbinectedin
+DDInter1147,Meningococcal polysaccharide vaccine group C,meningococcal polysaccharide vaccine group c
+DDInter1893,Typhoid vaccine (inactivated),typhoid vaccine (inactivated)
+DDInter1630,Sacubitril,sacubitril
+DDInter1816,Tipiracil,tipiracil
+DDInter979,Isatuximab,isatuximab
+DDInter1081,Lithium carbonate,lithium carbonate
+DDInter140,Aurothioglucose,aurothioglucose
+DDInter1682,Sodium aurothiomalate,sodium aurothiomalate
+DDInter559,Diiodohydroxyquinoline,diiodohydroxyquinoline
+DDInter1265,Naphazoline (ophthalmic),naphazoline (ophthalmic)
+DDInter674,Eslicarbazepine,eslicarbazepine
+DDInter1485,Polatuzumab vedotin,polatuzumab vedotin
+DDInter1108,Lutetium Lu 177 dotatate,lutetium lu 177 dotatate
+DDInter17,Acetohydroxamic acid,acetohydroxamic acid
+DDInter1914,Valrubicin,valrubicin
+DDInter91,Amrinone,amrinone
+DDInter1047,Levmetamfetamine (nasal),levmetamfetamine (nasal)
+DDInter1264,Naphazoline (nasal),naphazoline (nasal)
+DDInter1540,Propylhexedrine (nasal),propylhexedrine (nasal)
+DDInter1787,Tetryzoline (nasal),tetryzoline (nasal)
+DDInter1788,Tetryzoline (ophthalmic),tetryzoline (ophthalmic)
+DDInter1952,Xylometazoline (nasal),xylometazoline (nasal)
+DDInter1741,Tagraxofusp,tagraxofusp
+DDInter1819,Tisagenlecleucel,tisagenlecleucel
+DDInter804,Gallium nitrate,gallium nitrate
+DDInter957,Iodipamide,iodipamide
+DDInter229,Bretylium,bretylium
+DDInter146,Axicabtagene ciloleucel,axicabtagene ciloleucel
+DDInter1847,Trastuzumab deruxtecan,trastuzumab deruxtecan
+DDInter1738,Tafasitamab,tafasitamab
+DDInter1949,Voxelotor,voxelotor
+DDInter1959,Zanubrutinib,zanubrutinib
+DDInter546,Dienogest,dienogest
+DDInter892,Hydroxyamphetamine (ophthalmic),hydroxyamphetamine (ophthalmic)
+DDInter824,Glecaprevir,glecaprevir
+DDInter782,Fosnetupitant,fosnetupitant
+DDInter183,Benznidazole,benznidazole
+DDInter1649,Secnidazole,secnidazole
+DDInter1292,Nifurtimox,nifurtimox
+DDInter1500,Potassium Iodide,potassium iodide
+DDInter1427,Pentoxyverine,pentoxyverine
+DDInter1456,Phenylephrine (otic),phenylephrine (otic)
+DDInter748,Flumazenil,flumazenil
+DDInter796,Gadopentetic acid,gadopentetic acid
+DDInter798,Gadoteridol,gadoteridol
+DDInter1165,Methacholine,methacholine
+DDInter643,Enfuvirtide,enfuvirtide
+DDInter1503,Pralidoxime,pralidoxime
+DDInter959,Ioflupane I-123,ioflupane i-123
+DDInter1684,Sodium cellulose phosphate,sodium cellulose phosphate
+DDInter965,Iothalamic acid,iothalamic acid
+DDInter962,Iopanoic acid,iopanoic acid
+DDInter455,Cyclopentolate (ophthalmic),cyclopentolate (ophthalmic)
+DDInter529,"Dextrose, unspecified form","dextrose, unspecified form"
+DDInter964,Iopromide,iopromide
+DDInter966,Ioversol,ioversol
+DDInter967,Ioxilan,ioxilan
+DDInter1204,Metyrapone,metyrapone
+DDInter1885,Tropicamide (ophthalmic),tropicamide (ophthalmic)
+DDInter663,Ergoloid mesylate,ergoloid mesylate
+DDInter693,Ethiodized oil,ethiodized oil
+DDInter1056,Levoleucovorin,levoleucovorin
+DDInter828,Glucarpidase,glucarpidase
+DDInter797,Gadoteric acid,gadoteric acid
+DDInter800,Gadoxetic acid,gadoxetic acid
+DDInter1785,Tetraferric tricitrate decahydrate,tetraferric tricitrate decahydrate
+DDInter793,Gadobutrol,gadobutrol
+DDInter795,Gadofosveset trisodium,gadofosveset trisodium
+DDInter963,Iopodic acid,iopodic acid
+DDInter1895,Tyropanoic acid,tyropanoic acid
+DDInter729,Ferumoxsil,ferumoxsil
+DDInter1703,Sorbitol,sorbitol
+DDInter2,Abaloparatide,abaloparatide
+DDInter264,Calaspargase pegol,calaspargase pegol
+DDInter1184,Methylcellulose,methylcellulose
+DDInter1481,Plantago seed,plantago seed
+DDInter1578,Remdesivir,remdesivir
+DDInter1698,Somapacitan,somapacitan
+DDInter1892,Turmeric,turmeric
+DDInter1697,Solriamfetol,solriamfetol
+DDInter1329,Oliceridine,oliceridine
+DDInter1658,Selpercatinib,selpercatinib
+DDInter135,Atracurium,atracurium
+DDInter1571,Rapacuronium,rapacuronium
+DDInter1482,Plazomicin,plazomicin
+DDInter213,Bismuth subcitrate potassium,bismuth subcitrate potassium
+DDInter214,Bismuth subgallate,bismuth subgallate
+DDInter1017,Lactobacillus acidophilus,lactobacillus acidophilus
+DDInter1117,Magnesium glycinate,magnesium glycinate
+DDInter1015,Lactic acid,lactic acid
+DDInter1496,Potassium bicarbonate,potassium bicarbonate
+DDInter1499,Potassium gluconate,potassium gluconate
+DDInter1343,Opicapone,opicapone
+DDInter1216,Migalastat,migalastat
+DDInter176,Bempedoic acid,bempedoic acid
+DDInter787,Frangula purshiana bark,frangula purshiana bark
+DDInter337,Cemiplimab,cemiplimab
+DDInter803,Gallium chloride Ga-67,gallium chloride ga-67
+DDInter881,Hyaluronidase,hyaluronidase
+DDInter925,Influenza A virus A/Vietnam/1194/2004 (H5N1) antigen (formaldehyde inactivated),influenza a virus a/vietnam/1194/2004 (h5n1) antigen (formaldehyde inactivated)
+DDInter1436,Pfizer-BioNTech Covid-19 Vaccine,pfizer-biontech covid-19 vaccine
+DDInter1603,Risdiplam,risdiplam
+DDInter1601,Ripretinib,ripretinib
+DDInter821,Givosiran,givosiran
+DDInter1288,Niclosamide,niclosamide
+DDInter420,Coagulation Factor IX Human,coagulation factor ix human
+DDInter1753,Teduglutide,teduglutide
+DDInter868,Human botulinum neurotoxin A/B immune globulin,human botulinum neurotoxin a/b immune globulin
+DDInter870,Human cytomegalovirus immune globulin,human cytomegalovirus immune globulin
+DDInter926,Inotersen,inotersen
+DDInter877,Human Rho(D) immune globulin,human rho(d) immune globulin
+DDInter1225,Minocycline (topical),minocycline (topical)
+DDInter175,Belladonna,belladonna
+DDInter230,Brexanolone,brexanolone
+DDInter318,Cefiderocol,cefiderocol
+DDInter1580,Remimazolam,remimazolam
+DDInter142,Avapritinib,avapritinib
+DDInter1415,Pemigatinib,pemigatinib
+DDInter1504,Pralsetinib,pralsetinib
+DDInter1896,Ubrogepant,ubrogepant
+DDInter1246,Moxetumomab Pasudotox,moxetumomab pasudotox
+DDInter1129,Mebrofenin,mebrofenin
+DDInter1911,Valerian,valerian
+DDInter238,Brinzolamide (ophthalmic),brinzolamide (ophthalmic)
+DDInter347,Chamomile,chamomile
+DDInter1401,Pectin,pectin
+DDInter155,Azelastine (ophthalmic),azelastine (ophthalmic)
+DDInter193,Berotralstat,berotralstat
+DDInter1790,Thallous Chloride,thallous chloride
+DDInter182,Benzhydrocodone,benzhydrocodone
+DDInter253,Burosumab,burosumab
+DDInter227,Bremelanotide,bremelanotide
+DDInter836,Goldenseal,goldenseal
+DDInter277,Calcium glycerophosphate,calcium glycerophosphate
+DDInter1507,Prasterone enantate,prasterone enantate
+DDInter1393,Parathyroid hormone,parathyroid hormone
+DDInter1772,Teriparatide,teriparatide
+DDInter333,Ceftolozane,ceftolozane
+DDInter719,Fenofibric acid,fenofibric acid
+DDInter1132,Mecasermin rinfabate,mecasermin rinfabate
+DDInter660,Eravacycline,eravacycline
+DDInter1211,Microcrystalline cellulose,microcrystalline cellulose
+DDInter1752,Tedizolid,tedizolid
+DDInter1057,Levomefolic acid,levomefolic acid
+DDInter1058,Levomefolic acid (calcium),levomefolic acid (calcium)
+DDInter579,Docusate,docusate
+DDInter628,Elexacaftor,elexacaftor
+DDInter1691,"Sodium phosphate, monobasic","sodium phosphate, monobasic"
+DDInter1218,Miglustat,miglustat
+DDInter1654,Selenium,selenium
+DDInter1270,Naxitamab,naxitamab
+DDInter1644,Satralizumab,satralizumab
+DDInter1273,Nedocromil,nedocromil
+DDInter1341,Onasemnogene abeparvovec,onasemnogene abeparvovec
+DDInter1483,Plecanatide,plecanatide
+DDInter1930,Vibegron,vibegron
+DDInter1950,Voxilaprevir,voxilaprevir
+DDInter442,Copper gluconate,copper gluconate
+DDInter1869,Triheptanoin,triheptanoin
+DDInter1495,Potassium acetate,potassium acetate
+DDInter232,Brexucabtagene autoleucel,brexucabtagene autoleucel
+DDInter1373,Oxyquinoline (topical),oxyquinoline (topical)
+DDInter69,Aminobenzoic acid,aminobenzoic acid
+DDInter194,Beta carotene,beta carotene
+DDInter80,Ammonium chloride,ammonium chloride
+DDInter261,Cabotegravir,cabotegravir
+DDInter724,Ferric derisomaltose,ferric derisomaltose
+DDInter968,Ipecac,ipecac
+DDInter1145,Melphalan flufenamide,melphalan flufenamide
+DDInter1097,Loteprednol etabonate,loteprednol etabonate
+DDInter1813,Tioconazole,tioconazole
+DDInter801,Galactose,galactose
+DDInter888,Hydrocortisone butyrate,hydrocortisone butyrate
+DDInter805,gamma-Aminobutyric acid,gamma-aminobutyric acid
+DDInter635,Emicizumab,emicizumab
+DDInter709,Factor IX Complex (Human),factor ix complex (human)
+DDInter902,Icatibant,icatibant
+DDInter1944,Von Willebrand Factor Human,von willebrand factor human
+DDInter422,Coagulation factor X human,coagulation factor x human
+DDInter1575,Regadenoson,regadenoson
+DDInter733,Fibrinogen human,fibrinogen human
+DDInter1183,Methyl salicylate (topical),methyl salicylate (topical)
+DDInter617,Econazole (topical),econazole (topical)
+DDInter430,Coenzyme M,coenzyme m
+DDInter391,Citrus bioflavonoids,citrus bioflavonoids
+DDInter371,Chondroitin sulfate,chondroitin sulfate
+DDInter446,Cranberry,cranberry
+DDInter829,Glucosamine,glucosamine
+DDInter1390,Papaya,papaya
+DDInter1629,Sacituzumab govitecan,sacituzumab govitecan
+DDInter244,Bromotheophylline,bromotheophylline
+DDInter1551,Pyrophosphoric acid,pyrophosphoric acid
+DDInter345,Cetylpyridinium (topical),cetylpyridinium (topical)
+DDInter1865,Trifarotene (topical),trifarotene (topical)
+DDInter1807,Tilmanocept,tilmanocept
+DDInter773,Fomepizole,fomepizole
+DDInter1670,Silver nitrate (ophthalmic),silver nitrate (ophthalmic)
+DDInter1671,Silver nitrate (topical),silver nitrate (topical)
+DDInter1877,Trioxsalen,trioxsalen
+DDInter171,Belantamab mafodotin,belantamab mafodotin
+DDInter400,Clioquinol (topical),clioquinol (topical)
+DDInter1669,Silver (topical),silver (topical)
+DDInter1794,Thimerosal (topical),thimerosal (topical)
+DDInter423,Coal tar (topical),coal tar (topical)
+DDInter861,Hexachlorophene (topical),hexachlorophene (topical)
+DDInter1694,Sodium zirconium cyclosilicate,sodium zirconium cyclosilicate
+DDInter180,Benzalkonium (topical),benzalkonium (topical)
+DDInter372,Chorionic Gonadotropin (Human),chorionic gonadotropin (human)
+DDInter1674,Simethicone,simethicone
+DDInter443,Copper oxodotreotide Cu-64,copper oxodotreotide cu-64
+DDInter589,Dotatate,dotatate
+DDInter920,Indium In-111 pentetreotide,indium in-111 pentetreotide
+DDInter97,Anidulafungin,anidulafungin
+DDInter618,Eculizumab,eculizumab
+DDInter1574,Ravulizumab,ravulizumab
+DDInter144,Avelumab,avelumab
+DDInter167,Bazedoxifene,bazedoxifene
+DDInter409,Clomifene,clomifene
+DDInter1367,Oxygen,oxygen
+DDInter710,Factor XIII (human),factor xiii (human)
+DDInter619,Edetate calcium disodium anhydrous,edetate calcium disodium anhydrous
+DDInter620,Edetate disodium anhydrous,edetate disodium anhydrous
+DDInter494,Dehydrocholic acid,dehydrocholic acid
+DDInter308,Cedazuridine,cedazuridine
+DDInter483,Dasabuvir,dasabuvir
+DDInter1080,Lisocabtagene maraleucel,lisocabtagene maraleucel
+DDInter823,Glatiramer,glatiramer
+DDInter1272,Necitumumab,necitumumab
+DDInter862,Hexaminolevulinate,hexaminolevulinate
+DDInter739,Flax seed,flax seed
+DDInter1820,Tivozanib,tivozanib
+DDInter1546,Pyrantel,pyrantel
+DDInter866,Homatropine (ophthalmic),homatropine (ophthalmic)
+DDInter185,Benzonatate,benzonatate
+DDInter919,Indium In-111 pentetate,indium in-111 pentetate
+DDInter1219,Milk thistle,milk thistle
+DDInter728,Ferumoxides,ferumoxides
+DDInter1786,Tetrofosmin,tetrofosmin
+DDInter1689,Sodium iodide,sodium iodide
+DDInter1310,Norelgestromin,norelgestromin

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+
+# Large model files (share via Google Drive / Releases)
+*.pkl
+*.RRF
+RXNCONSO.csv
+drug_interactions_final.csv
+
+# Datasets
+train_dataset.csv
+test_dataset.csv
+
+# Virtual environment
+grad/
+
+# OS
+.DS_Store
+Thumbs.db
