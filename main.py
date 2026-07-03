@@ -7,9 +7,9 @@ from pydantic import BaseModel
 
 from ddi_engine import DDIEngine
 
-# ---------------------------------------------------------------------- #
-#  App + engine (engine loads ONCE at startup)                           #
-# ---------------------------------------------------------------------- #
+
+#  App + engine (engine loads ONCE at startup)                          
+
 app = FastAPI(
     title="DDI Prediction API",
     description="Drug-drug interactions, severity, allergy cross-reactivity, "
@@ -17,8 +17,8 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# allow the frontend (any origin) to call this API.
-# In production, replace ["*"] with your real frontend URL.
+# allow the frontend  to call this API.
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -31,9 +31,9 @@ app.add_middleware(
 engine = DDIEngine(data_dir="./")
 
 
-# ---------------------------------------------------------------------- #
-#  Health check                                                          #
-# ---------------------------------------------------------------------- #
+
+#  Health check                                                        
+
 @app.get("/")
 def root():
     return {
@@ -46,9 +46,8 @@ def root():
     }
 
 
-# ---------------------------------------------------------------------- #
-#  Name resolution                                                       #
-# ---------------------------------------------------------------------- #
+#  Name resolution                                                       
+
 @app.get("/resolve")
 def resolve(name: str = Query(..., description="Drug name (brand or generic)")):
     rxcui, source = engine.resolve_rxcui(name)
@@ -58,9 +57,9 @@ def resolve(name: str = Query(..., description="Drug name (brand or generic)")):
     return {"name": name, "rxcui": rxcui, "source": source}
 
 
-# ---------------------------------------------------------------------- #
-#  Interaction + severity + alternatives                                 #
-# ---------------------------------------------------------------------- #
+
+#  Interaction + severity + alternatives                                 
+
 @app.get("/interaction")
 def interaction(
     drug_a: str = Query(..., description="First drug name"),
@@ -74,9 +73,9 @@ def interaction(
     return result
 
 
-# ---------------------------------------------------------------------- #
-#  Allergy cross-reactivity                                              #
-# ---------------------------------------------------------------------- #
+
+#  Allergy cross-reactivity                                              
+
 @app.get("/allergy")
 def allergy(
     drug: str = Query(..., description="Drug the patient is allergic to"),
@@ -88,9 +87,9 @@ def allergy(
     return result
 
 
-# ---------------------------------------------------------------------- #
-#  Pregnancy safety (1 or 2 drugs)                                       #
-# ---------------------------------------------------------------------- #
+
+#  Pregnancy safety (1 or 2 drugs)                                      
+
 @app.get("/pregnancy")
 def pregnancy(
     drug_a: str = Query(..., description="First drug name"),
@@ -101,9 +100,9 @@ def pregnancy(
     return result
 
 
-# ---------------------------------------------------------------------- #
-#  Batch interaction check (POST)                                        #
-# ---------------------------------------------------------------------- #
+
+#  Batch interaction check (POST)                                       
+
 class DrugPair(BaseModel):
     drug_a: str
     drug_b: str
@@ -123,9 +122,9 @@ def interaction_batch(req: BatchRequest):
     return {"count": len(results), "results": results}
 
 
-# ---------------------------------------------------------------------- #
-#  Full medication-list screen (POST) — checks every pair                #
-# ---------------------------------------------------------------------- #
+
+#  Full medication-list screen (POST) — checks every pair                
+
 class MedListRequest(BaseModel):
     drugs: List[str]
 
