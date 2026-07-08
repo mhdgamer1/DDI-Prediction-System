@@ -52,9 +52,20 @@ def root():
 def resolve(name: str = Query(..., description="Drug name (brand or generic)")):
     rxcui, source = engine.resolve_rxcui(name)
     if rxcui is None:
+    
+        suggestion, score = engine.suggest_name(name)
+        if suggestion:
+            return {
+                "name": name,
+                "rxcui": None,
+                "resolved": False,
+                "suggestion": suggestion,
+                "suggestion_score": score,
+                "message": f"Did you mean '{suggestion}'?",
+            }
         raise HTTPException(status_code=404,
                             detail=f"Could not resolve '{name}'")
-    return {"name": name, "rxcui": rxcui, "source": source}
+    return {"name": name, "rxcui": rxcui, "source": source, "resolved": True}
 
 
 
@@ -69,6 +80,9 @@ def interaction(
     result = engine.predict_interaction(drug_a, drug_b,
                                         include_alternatives=alternatives)
     if "error" in result:
+   
+        if "suggestion" in result:
+            return result
         raise HTTPException(status_code=404, detail=result["error"])
     return result
 

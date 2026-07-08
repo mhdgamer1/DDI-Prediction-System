@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import networkx as nx
-
+from rapidfuzz import process, fuzz
 
 class DDIEngine:
     """Loads all models once and serves the four prediction functions."""
@@ -140,6 +140,25 @@ class DDIEngine:
             return self.REGIONAL_SYNONYMS[name_lower], "regional_brand"
         return None, None
 
+    def suggest_name(self, name, threshold=85):
+        """Fuzzy-match a misspelled drug name against all known names.
+        Returns (suggested_name, score) or (None, None). Does NOT auto-resolve —
+        the caller should confirm the suggestion with the user before use."""
+        name_lower = name.lower().strip()
+        if not hasattr(self, "_fuzzy_names"):
+            names = set()
+            names.update(self.ingredients["name_lower"].dropna().tolist())
+            names.update(self.alt_names["name_lower"].dropna().tolist())
+            names.update(self.REGIONAL_SYNONYMS.keys())
+            names.update(self.PRIORITY_OVERRIDES.keys())
+            self._fuzzy_names = [n for n in names if isinstance(n, str) and n]
+        match = process.extractOne(
+            name_lower, self._fuzzy_names,
+            scorer=fuzz.WRatio, score_cutoff=threshold)
+        if match:
+            return match[0], round(match[1], 1)
+        return None, None
+
 
     #  ATC HELPERS + ALTERNATIVES                                        #
 
@@ -242,9 +261,21 @@ class DDIEngine:
         rxcui_a, src_a = self.resolve_rxcui(name_a)
         rxcui_b, src_b = self.resolve_rxcui(name_b)
         if rxcui_a is None:
-            return {"error": f"Could not find '{name_a}'"}
+            sugg, score = self.suggest_name(name_a)
+            err = {"error": f"Could not find '{name_a}'"}
+            if sugg:
+                err["suggestion"] = sugg
+                err["suggestion_score"] = score
+                err["message"] = f"Did you mean '{sugg}'?"
+            return err
         if rxcui_b is None:
-            return {"error": f"Could not find '{name_b}'"}
+            sugg, score = self.suggest_name(name_b)
+            err = {"error": f"Could not find '{name_b}'"}
+            if sugg:
+                err["suggestion"] = sugg
+                err["suggestion_score"] = score
+                err["message"] = f"Did you mean '{sugg}'?"
+            return err
         if rxcui_a == rxcui_b:
             return {"error": "Both names resolve to the same ingredient."}
 
