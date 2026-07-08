@@ -1,5 +1,3 @@
-
-
 from typing import Optional, List
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -28,7 +26,7 @@ app.add_middleware(
 )
 
 # load all models once when the server starts
-engine = DDIEngine(data_dir="./")
+engine = DDIEngine(data_dir="./models")
 
 
 
