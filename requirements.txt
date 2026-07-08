@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+joblib
+numpy
+pandas
+networkx
+requests
+rapidfuzz
+scikit-learn
