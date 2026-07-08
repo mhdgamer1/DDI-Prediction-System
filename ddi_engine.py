@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import networkx as nx
-
+from rapidfuzz import process, fuzz
 
 class DDIEngine:
     """Loads all models once and serves the four prediction functions."""
@@ -56,12 +56,12 @@ class DDIEngine:
     }
 
 
-    #  INITIALISATION — loads everything once                            #
+                        
 
     def __init__(self, data_dir="./"):
         d = data_dir.rstrip("/")
 
-        # interaction model + support data
+        
         self.rf       = joblib.load(f"{d}/ddi_final_model_v2.pkl")
         meta          = joblib.load(f"{d}/ddi_model_metadata_v2.pkl")
         support       = joblib.load(f"{d}/ddi_support_data_v2.pkl")
@@ -92,7 +92,7 @@ class DDIEngine:
         self.SEVERITY_OVERRIDES     = sev_config["overrides"]
         self.UNKNOWN_SEVERITY_PAIRS = sev_config.get("unknown_severity_pairs", set())
 
-        # allergy config
+  
         allergy_config = joblib.load(f"{d}/ddi_allergy_config.pkl")
         self.TANIMOTO_THRESHOLD = allergy_config["tanimoto_threshold"]
         self.ATC_MIN_TANIMOTO   = allergy_config["atc_min_tanimoto"]
@@ -100,12 +100,12 @@ class DDIEngine:
             k: set(v) for k, v in allergy_config["pharmacophore_classes"].items()
         }
 
-        # pregnancy data
+
         preg_data = joblib.load(f"{d}/ddi_pregnancy_data.pkl")
         self.PREGNANCY_OVERRIDES = preg_data["overrides"]
         self.pregnancy_db        = preg_data["pregnancy_db"]
 
-        # build graph + caches
+
         self.G = nx.Graph()
         self.G.add_edges_from(self.positive_set)
         self.fp_rxcuis = list(self.rxcui_to_idx.keys())
@@ -116,10 +116,25 @@ class DDIEngine:
         self._rxcui_to_name = self.ingredients.set_index("RXCUI")["ingredient_name"].to_dict()
 
 
-    #  NAME RESOLUTION                                                    #
+                                               
+
+    MIN_NAME_LENGTH = 3      
+    ABBREV_MAX_LENGTH = 4     
+
+    def _is_chemical_abbreviation(self, name_lower, str_value):
+        """RxNorm stores chemical symbols as synonyms: "M"->methionine,
+        "K"->potassium, "CET"->cephalothin. They are valid RxNorm rows, but a
+        user typing 1-4 stray characters means a typo, not a drug. Real short
+        ingredients (air, tin, urea) live in `ingredients` and are matched
+        earlier, so they never reach this check."""
+        return (len(name_lower) <= self.ABBREV_MAX_LENGTH
+                and isinstance(str_value, str)
+                and str_value.isupper())
 
     def resolve_rxcui(self, name):
         name_lower = name.lower().strip()
+        if len(name_lower) < self.MIN_NAME_LENGTH:
+            return None, None
         if name_lower in self.PRIORITY_OVERRIDES:
             return self.PRIORITY_OVERRIDES[name_lower], "priority_override"
         hit = self.ingredients[self.ingredients["name_lower"] == name_lower]
@@ -135,13 +150,42 @@ class DDIEngine:
                 return ing.iloc[0]["RXCUI"], "brand_name"
         hit = self.alt_names[self.alt_names["name_lower"] == name_lower]
         if len(hit) > 0:
-            return hit.iloc[0]["RXCUI"], "synonym"
+            if not self._is_chemical_abbreviation(name_lower, hit.iloc[0]["STR"]):
+                return hit.iloc[0]["RXCUI"], "synonym"
         if name_lower in self.REGIONAL_SYNONYMS:
             return self.REGIONAL_SYNONYMS[name_lower], "regional_brand"
         return None, None
 
+    def suggest_name(self, name, threshold=85):
+        """Fuzzy-match a misspelled drug name against all known names.
+        Returns (suggested_name, score) or (None, None). Does NOT auto-resolve —
+        the caller should confirm the suggestion with the user before use."""
+        name_lower = name.lower().strip()
+        if len(name_lower) < self.MIN_NAME_LENGTH:
+            return None, None
+        if not hasattr(self, "_fuzzy_names"):
+            names = set()
+            names.update(self.ingredients["name_lower"].dropna().tolist())
+     
+            alt = self.alt_names.dropna(subset=["name_lower"])
+            alt = alt[~alt.apply(
+                lambda r: self._is_chemical_abbreviation(r["name_lower"], r["STR"]),
+                axis=1)]
+            names.update(alt["name_lower"].tolist())
+            names.update(self.REGIONAL_SYNONYMS.keys())
+            names.update(self.PRIORITY_OVERRIDES.keys())
+            self._fuzzy_names = [n for n in names
+                                 if isinstance(n, str)
+                                 and len(n) >= self.MIN_NAME_LENGTH]
+        match = process.extractOne(
+            name_lower, self._fuzzy_names,
+            scorer=fuzz.WRatio, score_cutoff=threshold)
+        if match and match[0] != name_lower:
+            return match[0], round(match[1], 1)
+        return None, None
 
-    #  ATC HELPERS + ALTERNATIVES                                        #
+
+
 
     def get_primary_atc_class(self, rxcui):
         classes = self.atc_lookup[self.atc_lookup["RXCUI"] == rxcui]["atc_class"].unique()
@@ -242,9 +286,21 @@ class DDIEngine:
         rxcui_a, src_a = self.resolve_rxcui(name_a)
         rxcui_b, src_b = self.resolve_rxcui(name_b)
         if rxcui_a is None:
-            return {"error": f"Could not find '{name_a}'"}
+            sugg, score = self.suggest_name(name_a)
+            err = {"error": f"Could not find '{name_a}'"}
+            if sugg:
+                err["suggestion"] = sugg
+                err["suggestion_score"] = score
+                err["message"] = f"Did you mean '{sugg}'?"
+            return err
         if rxcui_b is None:
-            return {"error": f"Could not find '{name_b}'"}
+            sugg, score = self.suggest_name(name_b)
+            err = {"error": f"Could not find '{name_b}'"}
+            if sugg:
+                err["suggestion"] = sugg
+                err["suggestion_score"] = score
+                err["message"] = f"Did you mean '{sugg}'?"
+            return err
         if rxcui_a == rxcui_b:
             return {"error": "Both names resolve to the same ingredient."}
 
@@ -323,7 +379,8 @@ class DDIEngine:
                 "HIGH":      "Model is >70% confident in this severity level",
                 "MEDIUM":    "Model is 55-70% confident — use with caution",
                 "LOW":       "Model confidence is below 55% — severity is uncertain",
-                "UNCERTAIN": "Model predicts Moderate but Major probability is borderline — verify clinically",
+                "UNCERTAIN": "DDInter confirms this interaction but does not classify its "
+                             "severity. This label is a model estimate only — verify clinically",
             }.get(sev_conf, None),
             "severity_probabilities": sev_probs,
             "confidence": confidence,
