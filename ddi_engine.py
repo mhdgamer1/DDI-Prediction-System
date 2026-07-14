@@ -121,15 +121,13 @@ class DDIEngine:
     MIN_NAME_LENGTH = 3      
     ABBREV_MAX_LENGTH = 4     
 
-    def _is_chemical_abbreviation(self, name_lower, str_value):
+    def _is_chemical_abbreviation(self, name_lower, str_value=None):
         """RxNorm stores chemical symbols as synonyms: "M"->methionine,
         "K"->potassium, "CET"->cephalothin. They are valid RxNorm rows, but a
         user typing 1-4 stray characters means a typo, not a drug. Real short
         ingredients (air, tin, urea) live in `ingredients` and are matched
         earlier, so they never reach this check."""
-        return (len(name_lower) <= self.ABBREV_MAX_LENGTH
-                and isinstance(str_value, str)
-                and str_value.isupper())
+        return len(name_lower) <= self.ABBREV_MAX_LENGTH
 
     def resolve_rxcui(self, name):
         name_lower = name.lower().strip()
