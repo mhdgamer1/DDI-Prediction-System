@@ -58,7 +58,7 @@ class DDIEngine:
 
                         
 
-    def __init__(self, data_dir="./"):
+    def __init__(self, data_dir="./models" , contraindications_path="./Data/contraindications.csv"):
         d = data_dir.rstrip("/")
 
         
@@ -105,6 +105,38 @@ class DDIEngine:
         self.PREGNANCY_OVERRIDES = preg_data["overrides"]
         self.pregnancy_db        = preg_data["pregnancy_db"]
 
+        self.contraindications = {}
+        self.USAN_TO_INN = {
+            "acetaminophen": "paracetamol",
+            "albuterol": "salbutamol",
+            "epinephrine": "adrenaline",
+            "norepinephrine": "noradrenaline",
+            "meperidine": "pethidine",
+            "cyclosporine": "ciclosporin",
+            "glyburide": "glibenclamide",
+            "furosemide": "frusemide",
+            "lidocaine": "lignocaine",
+            "isoproterenol": "isoprenaline",
+            "dextroamphetamine": "dexamfetamine",
+            "rifampin": "rifampicin",
+            "chlorpheniramine": "chlorphenamine",
+            "estradiol": "oestradiol",
+        }
+        try:
+            ci_path = contraindications_path or f"{d}/contraindications.csv"
+            ci_df = pd.read_csv(ci_path)
+            for _, row in ci_df.iterrows():
+                drug = str(row["drug_name"]).lower().strip()
+                cond = str(row["condition_name"]).strip()
+                if not drug or not cond or cond == "nan":
+                    continue
+                self.contraindications.setdefault(drug, []).append({
+                    "condition": cond,
+                    "snomed": row.get("snomed_full_name"),
+                    "umls_cui": row.get("umls_cui"),
+                })
+        except FileNotFoundError:
+            print("Warning: contraindications.csv not found — condition checks disabled")
 
         self.G = nx.Graph()
         self.G.add_edges_from(self.positive_set)
@@ -596,8 +628,88 @@ class DDIEngine:
             "overall_risk": hi, "overall_advice": advice,
             "note": "Always consult a physician before taking any medication during pregnancy."}
 
+    def check_condition_contraindications(self, medications, patient_conditions):
+        """Match prescribed drugs against the patient's chronic conditions using
+        DrugCentral's regulatory contraindication table.
 
+        DrugCentral is keyed by active ingredient (e.g. "paracetamol"), while
+        users type brand names ("Panadol", "Adol"). We therefore resolve every
+        input through RxNorm first, so a brand name lands on the same key the
+        contraindication table uses.
 
+        This is a lookup, not a prediction: drug-condition contraindications are
+        explicitly stated in regulatory labels, so guessing would only add error
+        where certainty already exists.
+        """
+        if not medications or not patient_conditions:
+            return {"warnings": [], "safe": True,
+                    "note": "No medications or conditions provided."}
+
+        patient_conds_lower = [str(c).lower().strip()
+                               for c in patient_conditions if c]
+
+        warnings = []
+        for med in medications:
+            # Build candidate keys, cheapest first, then fall back to RxNorm
+            # resolution which is what actually maps brands to ingredients.
+            candidates = []
+
+            base = self._get_base_name(med)          # strips salts: "X sodium" -> "x"
+            raw = str(med).lower().strip()
+            candidates.extend([base, raw])
+
+            rxcui, matched_type = self.resolve_rxcui(med)
+            if rxcui:
+                # The ingredient name behind the brand, as RxNorm knows it.
+                ingredient = self._rxcui_to_name.get(rxcui)
+                if ingredient:
+                    ing_lower = ingredient.lower().strip()
+                    ing_base = self._get_base_name(ingredient)
+                    candidates.extend([ing_lower, ing_base])
+                    # RxNorm answers in USAN ("acetaminophen") but the
+                    # contraindication table is INN-keyed ("paracetamol") —
+                    # without this bridge, brand lookups silently find nothing.
+                    for form in (ing_lower, ing_base):
+                        if form in self.USAN_TO_INN:
+                            candidates.append(self.USAN_TO_INN[form])
+
+            entries, matched_as = None, None
+            for cand in candidates:
+                if cand and cand in self.contraindications:
+                    entries, matched_as = self.contraindications[cand], cand
+                    break
+
+            if not entries:
+                continue
+            for entry in entries:
+                cond_lower = entry["condition"].lower()
+                for patient_cond in patient_conds_lower:
+                    # Bidirectional containment: handles "hypertension" vs
+                    # "uncontrolled hypertension" and similar phrasing gaps.
+                    if patient_cond in cond_lower or cond_lower in patient_cond:
+                        warnings.append({
+                            "medication": med,
+                            "resolved_ingredient": matched_as,
+                            "condition": entry["condition"],
+                            "patient_condition": patient_cond,
+                            "snomed": entry.get("snomed"),
+                            "umls_cui": entry.get("umls_cui"),
+                            "source": "DrugCentral",
+                            "note": (f"{med} ({matched_as}) is contraindicated in "
+                                     f"patients with {entry['condition']}."),
+                        })
+                        break
+
+        return {
+            "warnings": warnings,
+            "safe": len(warnings) == 0,
+            "medications_checked": medications,
+            "conditions_checked": patient_conditions,
+            "note": ("Based on DrugCentral regulatory contraindication data. "
+                     "Always verify clinically before dispensing."),
+        }
+        
+        
 if __name__ == "__main__":
     engine = DDIEngine(data_dir="./")
     print("Engine loaded.\n")
