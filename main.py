@@ -26,9 +26,7 @@ app.add_middleware(
 )
 
 # load all models once when the server starts
-engine = DDIEngine(data_dir="./models")
-
-
+engine = DDIEngine()
 
 #  Health check                                                        
 
@@ -111,7 +109,19 @@ def pregnancy(
     result = engine.check_pregnancy(drug_a, drug_b, use_live_api=live_api)
     return result
 
+## Condition check 
+class ConditionCheckRequest(BaseModel):
+    medications: List[str]
+    conditions: List[str]
 
+
+@app.post("/condition-check")
+def condition_check(req: ConditionCheckRequest):
+    """Check prescribed drugs against the patient's chronic conditions."""
+    result = engine.check_condition_contraindications(
+        req.medications, req.conditions
+    )
+    return result
 
 #  Batch interaction check (POST)                                       
 
