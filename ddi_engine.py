@@ -132,8 +132,8 @@ class DDIEngine:
                     continue
                 self.contraindications.setdefault(drug, []).append({
                     "condition": cond,
-                    "snomed": row.get("snomed_full_name"),
-                    "umls_cui": row.get("umls_cui"),
+                    "snomed": row.get("snomed_full_name") if pd.notna(row.get("snomed_full_name")) else None,
+                    "umls_cui": row.get("umls_cui") if pd.notna(row.get("umls_cui")) else None,
                 })
         except FileNotFoundError:
             print("Warning: contraindications.csv not found — condition checks disabled")

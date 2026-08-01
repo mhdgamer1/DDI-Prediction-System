@@ -27730,3 +27730,14 @@ zopiclone,Alcohol intoxication,contraindication,Alcohol intoxication,C0001969
 zopiclone,Severe chronic obstructive pulmonary disease,contraindication,Severe chronic obstructive pulmonary disease,C0730607
 zopiclone,Hepatic failure,contraindication,Hepatic failure,C0085605
 zopiclone,Sleep automatism,contraindication,Sleep automatism,C0424284
+aspirin,Peptic ulcer,contraindication,Peptic ulcer,
+aspirin,Gastrointestinal ulcer,contraindication,Gastrointestinal ulcer,
+aspirin,Blood coagulation disorder,contraindication,Blood coagulation disorder,
+aspirin,Asthma,contraindication,Asthma,
+aspirin,Kidney disease,contraindication,Kidney disease,
+promethazine,Asthma,contraindication,Asthma,
+promethazine,Decreased respiratory function,contraindication,Decreased respiratory function,
+promethazine,Angle-closure glaucoma,contraindication,Angle-closure glaucoma,
+promethazine,Benign prostatic hyperplasia,contraindication,Benign prostatic hyperplasia,
+promethazine,Retention of urine,contraindication,Retention of urine,
+promethazine,Disease of liver,contraindication,Disease of liver,
