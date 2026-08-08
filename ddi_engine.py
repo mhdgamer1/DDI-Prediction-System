@@ -433,12 +433,25 @@ class DDIEngine:
         return [cls for cls, s in self.PHARMACOPHORE_CLASSES.items() if rxcui in s]
 
     def check_cross_reactivity(self, allergic_to, max_results=10,
-                               tanimoto_threshold=None, atc_min_tanimoto=None):
+                               tanimoto_threshold=None, atc_min_tanimoto=None,
+                               check_against=None):
         tanimoto_threshold = tanimoto_threshold or self.TANIMOTO_THRESHOLD
         atc_min_tanimoto   = atc_min_tanimoto   or self.ATC_MIN_TANIMOTO
         rxcui_a, src = self.resolve_rxcui(allergic_to)
         if rxcui_a is None:
             return {"error": f"Could not find '{allergic_to}' in database."}
+        direct_matches = []
+        if check_against:
+            for med in check_against:
+                rxcui_med, _ = self.resolve_rxcui(med)
+                if rxcui_med is not None and rxcui_med == rxcui_a:
+                    direct_matches.append({
+                        "medication": med,
+                        "matched_ingredient": self._rxcui_to_name.get(rxcui_a, allergic_to),
+                        "risk": "CRITICAL",
+                        "note": (f"{med} contains the same active ingredient as "
+                                 f"the patient's recorded allergy ({allergic_to})."),
+                    })
         primary_class = self.get_primary_atc_class(rxcui_a)
         pharm_classes = self.get_pharmacophore_class(rxcui_a)
         same_atc_rxcuis = set(self.atc_lookup[
@@ -511,12 +524,23 @@ class DDIEngine:
             if t is None or t < atc_min_tanimoto:
                 continue
             try_add(rxcui_b, "atc_class", t, "MODERATE")
-
-        if not results:
+        prescribed_matches = []
+        if check_against:
+            prescribed_bases = {
+                self._get_base_name(self._rxcui_to_name.get(
+                    self.resolve_rxcui(m)[0], m))
+                for m in check_against
+            }
+            for r in results.values():
+                if r["name"] in prescribed_bases:
+                    prescribed_matches.append(r)
+        if not results and not direct_matches:
             return {"allergic_to": allergic_to,
                     "message": "No cross-reactive drugs found.",
                     "atc_class": primary_class,
-                    "pharmacophore_class": pharm_classes if pharm_classes else None}
+                    "pharmacophore_class": pharm_classes if pharm_classes else None,
+                    "direct_matches": direct_matches} 
+                    
 
         sorted_results = sorted(
             results.values(),
@@ -536,6 +560,8 @@ class DDIEngine:
             "pharmacophore_class": pharm_classes if pharm_classes else None,
             "threshold_used": tanimoto_threshold,
             "cross_reactive_drugs": sorted_results,
+            "direct_matches": direct_matches,          
+            "prescribed_matches": prescribed_matches, 
             "uncertainty_note": uncertainty_note,
             "note": ("These drugs share structural similarity or pharmacological class "
                      "with the drug you are allergic to. Cross-reactivity risk varies. "

@@ -83,20 +83,60 @@ def interaction(
     return result
 
 
+class AllergyCheckRequest(BaseModel):
+    medications: Optional[List[str]] = None   # للاستخدام الجديد
+    allergies: Optional[List[str]] = None     # للاستخدام الجديد
+    drug: Optional[str] = None                # للاستخدام القديم (توافقية خلفية)
+    max_results: int = 10
+
 
 #  Allergy cross-reactivity                                              
 
-@app.get("/allergy")
-def allergy(
-    drug: str = Query(..., description="Drug the patient is allergic to"),
-    max_results: int = Query(10, ge=1, le=50),
-):
-    result = engine.check_cross_reactivity(drug, max_results=max_results)
-    if "error" in result:
-        raise HTTPException(status_code=404, detail=result["error"])
-    return result
+@app.post("/allergy")
+def allergy(req: AllergyCheckRequest):
+    """
+    Two modes in one endpoint:
+    - Single-drug mode (`drug`): returns everything structurally/pharmacologically
+      similar to that one drug — the original lookup behaviour.
+    - Prescription-check mode (`medications` + `allergies`): checks a list of
+      prescribed drugs against a list of recorded allergies, flagging both
+      exact-ingredient matches (e.g. Paracetamol prescribed against a Panadol
+      allergy) and cross-reactive ones.
+    """
+    # ── Prescription-check mode ──
+    if req.medications and req.allergies:
+        all_direct = []
+        all_cross = []
 
+        for allergen in req.allergies:
+            result = engine.check_cross_reactivity(
+                allergen, check_against=req.medications, max_results=req.max_results
+            )
+            if "error" in result:
+                continue
+            for match in result.get("direct_matches", []):
+                all_direct.append({**match, "allergen": allergen})
+            for match in result.get("prescribed_matches", []):
+                all_cross.append({**match, "allergen": allergen})
 
+        return {
+            "direct_matches": all_direct,
+            "cross_reactive_matches": all_cross,
+            "safe": len(all_direct) == 0 and len(all_cross) == 0,
+        }
+
+    # ── Single-drug mode (original behaviour) ──
+    if req.drug:
+        result = engine.check_cross_reactivity(req.drug, max_results=req.max_results)
+        if "error" in result:
+            raise HTTPException(status_code=404, detail=result["error"])
+        return result
+
+    raise HTTPException(
+        status_code=422,
+        detail="Provide either 'drug' for a single lookup, or both "
+               "'medications' and 'allergies' for a prescription check.",
+    )
 
 #  Pregnancy safety (1 or 2 drugs)                                      
 
