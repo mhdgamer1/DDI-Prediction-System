@@ -1,9 +1,10 @@
 fastapi
 uvicorn
 joblib
-numpy
-pandas
+numpy==2.4.6
+pandas==3.0.3
 networkx
 requests
 rapidfuzz
-scikit-learn
+scikit-learn==1.9.0
+huggingface_hub
