@@ -7,7 +7,11 @@ venv/
 .venv/
 .env
 
-# Large model files (share via Google Drive / Releases)
+
+# Large model files - stored on Hugging Face
+Models/
+models/
+# Large DataSets
 *.RRF
 RXNCONSO.csv
 drug_interactions_final.csv
