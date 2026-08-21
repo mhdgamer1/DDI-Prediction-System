@@ -8,7 +8,6 @@ venv/
 .env
 
 # Large model files (share via Google Drive / Releases)
-*.pkl
 *.RRF
 RXNCONSO.csv
 drug_interactions_final.csv
