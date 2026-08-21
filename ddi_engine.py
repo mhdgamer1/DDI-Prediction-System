@@ -58,7 +58,7 @@ class DDIEngine:
 
                         
 
-    def __init__(self, data_dir="./models" , contraindications_path="./Data/contraindications.csv"):
+    def __init__(self, data_dir="./Models" , contraindications_path="./Data/contraindications.csv"):
         d = data_dir.rstrip("/")
 
         
@@ -737,7 +737,7 @@ class DDIEngine:
         
         
 if __name__ == "__main__":
-    engine = DDIEngine(data_dir="./models")
+    engine = DDIEngine(data_dir="./Models")
     print("Engine loaded.\n")
     print(json.dumps(engine.predict_interaction("Warfarin", "Aspirin"), indent=2, ensure_ascii=False))
     print(json.dumps(engine.check_cross_reactivity("Penicillin G"), indent=2)[:500])
