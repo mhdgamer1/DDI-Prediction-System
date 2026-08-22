@@ -2,7 +2,7 @@ from typing import Optional, List
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-
+import download_models
 from ddi_engine import DDIEngine
 
 
