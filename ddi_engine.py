@@ -58,7 +58,7 @@ class DDIEngine:
 
                         
 
-    def __init__(self, data_dir="./Models" , contraindications_path="./Data/contraindications.csv"):
+    def __init__(self, data_dir="./models" , contraindications_path="./Data/contraindications.csv"):
         d = data_dir.rstrip("/")
 
         
