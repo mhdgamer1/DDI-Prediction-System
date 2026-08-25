@@ -6,6 +6,15 @@ import download_models
 from ddi_engine import DDIEngine
 
 
+# ============================================================
+# Download DDI models from Hugging Face before loading engine
+# ============================================================
+
+download_models.download_models()
+
+
+
+
 #  App + engine (engine loads ONCE at startup)                          
 
 app = FastAPI(
