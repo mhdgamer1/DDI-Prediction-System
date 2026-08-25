@@ -16,26 +16,31 @@ REQUIRED_FILES = [
     "ddi_support_data_v2.pkl",
 ]
 
-os.makedirs(LOCAL_DIR, exist_ok=True)
 
-missing = [
-    f for f in REQUIRED_FILES
-    if not os.path.exists(os.path.join(LOCAL_DIR, f))
-]
+def download_models():
+    os.makedirs(LOCAL_DIR, exist_ok=True)
 
-if not missing:
-    print("All DDI models already exist.")
-else:
-    print("Missing models:")
+    missing = [
+        f
+        for f in REQUIRED_FILES
+        if not os.path.exists(os.path.join(LOCAL_DIR, f))
+    ]
+
+    if not missing:
+        print("✅ All DDI models already exist.")
+        return
+
+    print("⬇️ Missing models:")
     for f in missing:
         print(f"  - {f}")
 
-    print("Downloading DDI models from Hugging Face...")
+    print("⬇️ Downloading DDI models from Hugging Face...")
 
     snapshot_download(
         repo_id=REPO_ID,
         repo_type="model",
         local_dir=LOCAL_DIR,
+        allow_patterns=REQUIRED_FILES,
     )
 
-    print("DDI models downloaded successfully.")
+    print("✅ DDI models downloaded successfully.")
